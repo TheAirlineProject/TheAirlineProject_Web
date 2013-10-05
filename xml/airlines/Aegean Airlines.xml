@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+	<profile>
+  <name lang="en">Aegean Airlines</name>
+  <iata>A3</iata>
+  <country>118</country>
+  <CEO>Theodoros Vassilakis</CEO>
+  <mentality>Aggressive</mentality>
+  <market>Global</market>
+  <preferedairport>ATH</preferedairport>
+ <narrative>Aegean Airlines is since 2009 the largest Greek airline with a fleet of 35 aircrafts and over 6 million passengers carried yearly."</narrative>
+</profile>
+  </airline>
+  

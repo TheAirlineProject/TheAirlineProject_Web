@@ -229,24 +229,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', end
 	
 			<h4>Manufacturer:</h4><h5> <?php echo $row['manufacturer'] ?></h5>
 			<h4>Name:</h4><h5> <?php echo $row['name'] ?></h5>
-			<h4>Price:</h4><h5 id="price"> <?php echo $row['price'] ?></h5>
+			<h4>Price:</h4><h5 class="commas"> <?php echo $row['price'] ?></h5>
 			<h4>Body Type:</h4><h5> <?php echo $row['body'] ?></h5>
 			<h4>Range Type:</h4><h5> <?php echo $row['rangetype'] ?></h5>
 			<h4>Engine Type:</h4><h5> <?php echo $row['engine'] ?></h5><br />
 			<h4>Wingspan:</h4><h5> <?php echo ($row['wingspan'] ) ?></h5>
 			<h4>Length:</h4><h5> <?php echo $row['length'] ?></h5>
-			<h4>Range (km):</h4><h5 id="range"> <?php echo $row['arange'] ?></h5>
+			<h4>Range (km):</h4><h5 class="commas"> <?php echo $row['arange'] ?></h5>
 			<h4>Speed (km/h):</h4><h5> <?php echo $row['speed'] ?></h5>
-			<h4>Fuel Capacity (l):</h4><h5 id="fuel"> <?php echo $row['fuel'] ?></h5>
+			<h4>Fuel Capacity (l):</h4><h5 class="commas"> <?php echo $row['fuel'] ?></h5>
 			<h4>Fuel Consumption (l/pax/km):</h4><h5> <?php echo $row['consumption'] ?></h5>
-			<h4>Minimum Runway Length:</h4><h5> <?php echo $row['runway'] ?></h5>
+			<h4>Minimum Runway Length:</h4><h5 class="commas"> <?php echo $row['runway'] ?></h5>
 			<h4>Passenger Capacity:</h4><h5> <?php echo $row['pax'] ?></h5>
 			<h4>Pilots:</h4><h5> <?php echo $row['pilots'] ?></h5>
 			<h4>Cabin Crew:</h4><h5> <?php echo $row['crew'] ?></h5>
 			<h4>Max Classes:</h4><h5> <?php echo $row['classes'] ?></h5>
 			<h4>Production Start:</h4><h5> <?php echo $row['start'] ?></h5>
 			<h4>Production End:</h4><h5> <?php echo $row['end'] ?></h5>
-
 
 			</div>
 
@@ -270,11 +269,9 @@ function addCommas(nStr)
 	return x1 + x2;
 }
 
-$('#price').text(addCommas($('#price').text()));
-$('#fuel').text(addCommas($('#fuel').text()));
-$('#range').text(addCommas($('#range').text()));
-
-
+	$('.commas').each(function() {
+		$(this).text(addCommas($(this).text()));
+	})
 </script>
 
 	</body>

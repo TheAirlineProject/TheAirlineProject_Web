@@ -1,0 +1,2841 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="tap">
+	<table_structure name="airlines">
+		<field Field="name" Type="varchar(20)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="iata" Type="varchar(4)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="color" Type="varchar(10)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="country" Type="int(3)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="ceo" Type="varchar(30)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="mentality" Type="varchar(20)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="market" Type="varchar(20)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="airport" Type="varchar(5)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="narrative" Type="varchar(300)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="id" Type="mediumint(9)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<key Table="airlines" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="209" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="airlines" Engine="InnoDB" Version="10" Row_format="Compact" Rows="252" Avg_row_length="325" Data_length="81920" Max_data_length="0" Index_length="0" Data_free="7340032" Auto_increment="242" Create_time="2013-10-05 13:40:35" Collation="latin1_swedish_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="airlines">
+	<row>
+		<field name="name">AccessAir</field>
+		<field name="iata">ZA</field>
+		<field name="color">Firebrick</field>
+		<field name="country">122</field>
+		<field name="ceo">Benjamin Watson</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Local</field>
+		<field name="airport">DSM</field>
+		<field name="narrative">AccessAir was a regional US airline that operated for only 3 years a fleet that was exclusively Boeing 737-200s.</field>
+		<field name="id">1</field>
+	</row>
+	<row>
+		<field name="name">Adam Air</field>
+		<field name="iata">KI</field>
+		<field name="color">LightGreen</field>
+		<field name="country">162</field>
+		<field name="ceo">Adam Adhitya Suherman</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Local</field>
+		<field name="airport">CGK</field>
+		<field name="narrative">Adam Air was a short-lived Indonesian airline which operated from 2002 to 2008. They operated a fleet of 22 Boeing 737s. </field>
+		<field name="id">2</field>
+	</row>
+	<row>
+		<field name="name">Aer Lingus</field>
+		<field name="iata">EI</field>
+		<field name="color">Green</field>
+		<field name="country">137</field>
+		<field name="ceo">Christoph Mueller</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Regional</field>
+		<field name="airport">DUB</field>
+		<field name="narrative">Aer Lingus Group Plc an anglicisation of the Irish Aer Loingeas meaning air fleet, is an airline and the flag carrier of Ireland. It operates a fleet of Airbus aircraft serving Europe, North America, North Africa and Asia. It is Ireland's oldest extant airline, and its second largest, after low-cost</field>
+		<field name="id">4</field>
+	</row>
+	<row>
+		<field name="name">AeroMexico</field>
+		<field name="iata">AM</field>
+		<field name="color">Navy</field>
+		<field name="country">157</field>
+		<field name="ceo">Andres Labastida</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">MEX</field>
+		<field name="narrative">AeroMexico is the flag carrier of Mexico, based in Mexico City. It has been in operation since 1934 and is rapidly expanding, with destinations primarily in Mexico and North/Central America. Their fleet currently consists exclusively of Boeing aircraft, primarily the 737.  </field>
+		<field name="id">5</field>
+	</row>
+	<row>
+		<field name="name">Aeroflot</field>
+		<field name="iata">SU</field>
+		<field name="color">DarkSlateB</field>
+		<field name="country">149</field>
+		<field name="ceo">Vitaly Gennadyevich Savelyev</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global </field>
+		<field name="airport">SVO</field>
+		<field name="narrative">Aeroflot is the flag carrier and largest airline in Russia, in business since 1923. They operate a fleet of over 120 from their hub at Sheremetyevo. Their fleet consists of Airbus A320 and A330s.</field>
+		<field name="id">6</field>
+	</row>
+	<row>
+		<field name="name">Aerolineas Argentina</field>
+		<field name="iata">AR</field>
+		<field name="color">LightBlue</field>
+		<field name="country">106</field>
+		<field name="ceo">Nelson Ramiz</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Global</field>
+		<field name="airport">AEP</field>
+		<field name="narrative">Aerolineas Argentinas is Argentina's largest airline and serves as the country's flag carrier.</field>
+		<field name="id">7</field>
+	</row>
+	<row>
+		<field name="name">Agni Air</field>
+		<field name="iata">AG</field>
+		<field name="color">DarkRed</field>
+		<field name="country">251</field>
+		<field name="ceo">Sudip Basnyat</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Domestic</field>
+		<field name="airport">KTM</field>
+		<field name="narrative">Agni Air is a new Nepalese airline in operation since 2006. They fly to 8 destinations with a Dornier 228 and 3-Jetstream41s.</field>
+		<field name="id">8</field>
+	</row>
+	<row>
+		<field name="name">Air AlgÃ©rie</field>
+		<field name="iata">AH</field>
+		<field name="color">DarkRed</field>
+		<field name="country">142</field>
+		<field name="ceo">Mohamed-Salah Boultif</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Regional</field>
+		<field name="airport">ALG</field>
+		<field name="narrative">Air AlgÃ©rie operates scheduled international services to 39 destinations in 28 countries in Europe, North America, Africa, Asia, and the Middle East, as well as domestic services to 32 airports. The airline is the national airline of Algeria</field>
+		<field name="id">9</field>
+	</row>
+	<row>
+		<field name="name">Air Arabia Egypt</field>
+		<field name="iata">E5</field>
+		<field name="color">Black</field>
+		<field name="country">155</field>
+		<field name="ceo">Jaan Albrecht</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">ALY</field>
+		<field name="narrative"></field>
+		<field name="id">10</field>
+	</row>
+	<row>
+		<field name="name">Air Arabia Maroc</field>
+		<field name="iata">3O</field>
+		<field name="color">Black</field>
+		<field name="country">133</field>
+		<field name="ceo">Amin Alhaimy</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">CMN</field>
+		<field name="narrative"></field>
+		<field name="id">11</field>
+	</row>
+	<row>
+		<field name="name">Air Arabia</field>
+		<field name="iata">G9</field>
+		<field name="color">Black</field>
+		<field name="country">156</field>
+		<field name="ceo">Adel Ali</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">SHJ</field>
+		<field name="narrative"></field>
+		<field name="id">12</field>
+	</row>
+	<row>
+		<field name="name">Air Berlin</field>
+		<field name="iata">AB</field>
+		<field name="color">Red</field>
+		<field name="country">163</field>
+		<field name="ceo">Hartmut Mehdorn</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global </field>
+		<field name="airport">DUS</field>
+		<field name="narrative">Air Berlin GmbH Luftverkehrs KG is Germany's second largest airline, after Lufthansa German Airlines, and Europe's sixth largest airline in terms of passengers. It operates an extensive network including holiday destinations in the Mediterranean region, the Canary Islands and North Africa as well as</field>
+		<field name="id">13</field>
+	</row>
+	<row>
+		<field name="name">Air Cargo Carriers</field>
+		<field name="iata">2Q</field>
+		<field name="color">Blue</field>
+		<field name="country">122</field>
+		<field name="ceo">James Germek</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Domestic</field>
+		<field name="airport">MKE</field>
+		<field name="narrative">Air Cargo Carriers is a cargo airline based in Milwaukee, Wisconsin, USA. It was established in 1986 and operates contract feeder cargo services for UPS and DHL. Air Cargo Carriers, Inc. is the largest civilian operator of Shorts aircraft in the world.</field>
+		<field name="id">14</field>
+	</row>
+	<row>
+		<field name="name">Air Do</field>
+		<field name="iata">HE</field>
+		<field name="color">Black</field>
+		<field name="country">171</field>
+		<field name="ceo">Sadao Saito</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">HND</field>
+		<field name="narrative"></field>
+		<field name="id">15</field>
+	</row>
+	<row>
+		<field name="name">Air Jamaica</field>
+		<field name="iata">JM</field>
+		<field name="color">Purple</field>
+		<field name="country">199</field>
+		<field name="ceo">Rubindra Moonan</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Domestic</field>
+		<field name="airport">KIN</field>
+		<field name="narrative">Air Jamaica is the current national airline of Jamaica. Air Jamaica was established in October 1968 and started operations on April 1, 1969.</field>
+		<field name="id">16</field>
+	</row>
+	<row>
+		<field name="name">Air Kiribati</field>
+		<field name="iata">4A</field>
+		<field name="color">Red</field>
+		<field name="country">115</field>
+		<field name="ceo">Iosabata Namakin</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Local</field>
+		<field name="airport">TRW</field>
+		<field name="narrative">Air Kiribati Limited is the national airline of Kiribati operating passenger services within the Gilbert Islands of Kiribati, and to Fiji</field>
+		<field name="id">17</field>
+	</row>
+	<row>
+		<field name="name">Air Malta</field>
+		<field name="iata">KM</field>
+		<field name="color">Red</field>
+		<field name="country">132</field>
+		<field name="ceo">Peter Davies</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Regional</field>
+		<field name="airport">MLA</field>
+		<field name="narrative">Air Malta is the national airline of Malta, in service since 1973 with routes to Europe and North Africa. Their fleet is small and consists of only Airbus A320 family aircraft.</field>
+		<field name="id">18</field>
+	</row>
+	<row>
+		<field name="name">Air Mauritius</field>
+		<field name="iata">MK</field>
+		<field name="color">Red</field>
+		<field name="country">206</field>
+		<field name="ceo">Andr Viljoen</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">MRU</field>
+		<field name="narrative">Air Mauritius Limited, doing business as Air Mauritius, is the flag carrier of Mauritius. The airline is headquartered at the Air Mauritius Centre in Port Louis, Mauritius. Its main base is Sir Seewoosagur Ramgoolam International Airport.</field>
+		<field name="id">19</field>
+	</row>
+	<row>
+		<field name="name">Air Mekong</field>
+		<field name="iata">P8</field>
+		<field name="color">Black</field>
+		<field name="country">170</field>
+		<field name="ceo">Doan Quoc Viet</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">SGN</field>
+		<field name="narrative"></field>
+		<field name="id">20</field>
+	</row>
+	<row>
+		<field name="name">Air Moorea</field>
+		<field name="iata">VT</field>
+		<field name="color">Orange</field>
+		<field name="country">140</field>
+		<field name="ceo">Freddy Chanseau</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Local</field>
+		<field name="airport">PPT</field>
+		<field name="narrative">Air Moorea was an airline based on the grounds of Faa'a International Airport in Faaa, Tahiti, French Polynesia</field>
+		<field name="id">21</field>
+	</row>
+	<row>
+		<field name="name">Air New Zealand</field>
+		<field name="iata">NZ</field>
+		<field name="color">Black</field>
+		<field name="country">186</field>
+		<field name="ceo">Rob Fyfe</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global </field>
+		<field name="airport">AKL</field>
+		<field name="narrative">Air New Zealand is the flag carrier of New Zealand, based out of Auckland. They ahve been in operation since 1939 and operate a fleet of 50 aircraft on the main line. They fly to an equal number of domestic and international destinations, with a fleet consisting of Airbus A320/Boeing 737s, and Boein</field>
+		<field name="id">22</field>
+	</row>
+	<row>
+		<field name="name">Air Nigeria</field>
+		<field name="iata">VK</field>
+		<field name="color">DarkGreen</field>
+		<field name="country">145</field>
+		<field name="ceo">Jimoh Ibrahim</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Local</field>
+		<field name="airport">LOS</field>
+		<field name="narrative">Air Nigeria (originally Virgin Nigeria Airways, and then Nigerian Eagle Airlines), was the national flag carrier of Nigeria, which operated scheduled regional and domestic passenger services</field>
+		<field name="id">23</field>
+	</row>
+	<row>
+		<field name="name">Air Niugini</field>
+		<field name="iata">PX</field>
+		<field name="color">Red</field>
+		<field name="country">280</field>
+		<field name="ceo">Wasantha Kumarasiri</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Regional</field>
+		<field name="airport">POM</field>
+		<field name="narrative">Air Niugini Limited is the national airline of Papua New Guinea, based in Air Niugini House on the property of Jacksons International Airport, Port Moresby</field>
+		<field name="id">24</field>
+	</row>
+	<row>
+		<field name="name">Air One</field>
+		<field name="iata">AP</field>
+		<field name="color">Black</field>
+		<field name="country">141</field>
+		<field name="ceo">SkÃºli Mogensen</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">MXP</field>
+		<field name="narrative"></field>
+		<field name="id">25</field>
+	</row>
+	<row>
+		<field name="name">Air Tahiti Nui</field>
+		<field name="iata">TN</field>
+		<field name="color">LightBlue</field>
+		<field name="country">140</field>
+		<field name="ceo">Etienne Howan</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Regional</field>
+		<field name="airport">PPT</field>
+		<field name="narrative">Air Tahiti Nui is French Polynesia's flag carrier airline with its head office in the Immeuble Dexter in Papeete, Tahiti. It operates international services for the low and high-end leisure travel markets. Its main base is Faa'a International Airport, Papeete</field>
+		<field name="id">26</field>
+	</row>
+	<row>
+		<field name="name">Air UK</field>
+		<field name="iata">UK</field>
+		<field name="color">Blue</field>
+		<field name="country">130</field>
+		<field name="ceo">Peter Villa</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Regional</field>
+		<field name="airport">STN</field>
+		<field name="narrative">Air UK was a regional British airline founded in 1980, which eventually was renamed KLM UK. They operated domestic routes on a fleet consisting primarily of Fokker and BAe aircraft.</field>
+		<field name="id">27</field>
+	</row>
+	<row>
+		<field name="name">Air Wales</field>
+		<field name="iata">6G</field>
+		<field name="color">Red</field>
+		<field name="country">130</field>
+		<field name="ceo">Roy Thomas</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Local</field>
+		<field name="airport">CWL</field>
+		<field name="narrative">Air Wales is a small local airline based out of Cardiff, Wales, in operation from 1997 to 2006. They flew to 13 destinations on a fleet of 5 ATR-42-300s.</field>
+		<field name="id">28</field>
+	</row>
+	<row>
+		<field name="name">AirAsia Japan</field>
+		<field name="iata">JW</field>
+		<field name="color">Black</field>
+		<field name="country">171</field>
+		<field name="ceo">Sadao Saito</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">NRT</field>
+		<field name="narrative"></field>
+		<field name="id">29</field>
+	</row>
+	<row>
+		<field name="name">AirAsia Philippines</field>
+		<field name="iata">PQ</field>
+		<field name="color">Black</field>
+		<field name="country">131</field>
+		<field name="ceo">Marianne Hontiveros</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">CRK</field>
+		<field name="narrative"></field>
+		<field name="id">30</field>
+	</row>
+	<row>
+		<field name="name">AirAsia X</field>
+		<field name="iata">D8</field>
+		<field name="color">Black</field>
+		<field name="country">173</field>
+		<field name="ceo">Tony Fernandes</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">KUL</field>
+		<field name="narrative"></field>
+		<field name="id">31</field>
+	</row>
+	<row>
+		<field name="name">AirShepherd</field>
+		<field name="iata">SPD</field>
+		<field name="color">Gold</field>
+		<field name="country">163</field>
+		<field name="ceo">Preston Shepherd</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Regional</field>
+		<field name="airport">MUN</field>
+		<field name="narrative">AirShepherd is a complimentary fictional airline as a thank you to one of our users.</field>
+		<field name="id">32</field>
+	</row>
+	<row>
+		<field name="name">AirTran Airways</field>
+		<field name="iata">FL</field>
+		<field name="color">Black</field>
+		<field name="country">122</field>
+		<field name="ceo">Bob Fornaro</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">BWI</field>
+		<field name="narrative"></field>
+		<field name="id">33</field>
+	</row>
+	<row>
+		<field name="name">Air Asia</field>
+		<field name="iata">AK</field>
+		<field name="color">Tomato</field>
+		<field name="country">173</field>
+		<field name="ceo">Tony Fernandes</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">KUL</field>
+		<field name="narrative">Air Asia is a budget airline based out of Kuala Lumpur and has been in operation since 1993. They operate over 140 routes to 78 destionations, on a fleet consisting exclusively of Airbus A320s. </field>
+		<field name="id">34</field>
+	</row>
+	<row>
+		<field name="name">Air Canada</field>
+		<field name="iata">AC</field>
+		<field name="color">DarkSlateB</field>
+		<field name="country">113</field>
+		<field name="ceo">David Richardson</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">YYC</field>
+		<field name="narrative">Air Canada is the flag airline and largest carrier in Canada, in operation since 1936 and now based at Toronto. They operate a fleet of over 200 to 96 destinations worldwide. Their fleet is primarily Embraer 190, Boeing 767, and Airbus A320, with lesser numbers of other models. </field>
+		<field name="id">35</field>
+	</row>
+	<row>
+		<field name="name">Air China</field>
+		<field name="iata">CA</field>
+		<field name="color">Linen</field>
+		<field name="country">148</field>
+		<field name="ceo">Wang Changshun</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">PEK</field>
+		<field name="narrative">Air China is the flag carrier of China, in operation since 1988 out of its main hub in Beijing. They operate a fleet of almost 300 to 185 destionations throughout the world. Their fleet is a mix of various Airbus and Boeing aircraft, with 250 more on order. </field>
+		<field name="id">36</field>
+	</row>
+	<row>
+		<field name="name">Air France</field>
+		<field name="iata">AF</field>
+		<field name="color">LimeGreen</field>
+		<field name="country">140</field>
+		<field name="ceo">Alexandre de Juniac</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">CDG</field>
+		<field name="narrative">Air France is the flag airline of France, operating out of Paris since 1933. They fly a fleet of over 250 aircraft to 272 destinations throughout the world. Their fleet consists of a full range of Airbus aircraft in addition to Boeing 777s. </field>
+		<field name="id">37</field>
+	</row>
+	<row>
+		<field name="name">Air India</field>
+		<field name="iata">AI</field>
+		<field name="color">Red</field>
+		<field name="country">152</field>
+		<field name="ceo">Rohit Nandan</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">DEL</field>
+		<field name="narrative">Air India is the national flag carrier of India.</field>
+		<field name="id">38</field>
+	</row>
+	<row>
+		<field name="name">Air Vegas</field>
+		<field name="iata">6V</field>
+		<field name="color">LightCoral</field>
+		<field name="country">122</field>
+		<field name="ceo">Michael Smith</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Local</field>
+		<field name="airport">LAS</field>
+		<field name="narrative">Air Vegas was a sight-seeing airline based out of Las Vegas from 1971 to 2004. They operated flights to the Grand Canyon on a fleet of 9 Beechcraft C99s.</field>
+		<field name="id">39</field>
+	</row>
+	<row>
+		<field name="name">Airlines PNG</field>
+		<field name="iata">CG</field>
+		<field name="color">Blue</field>
+		<field name="country">280</field>
+		<field name="ceo">John Wild Sr.</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Local</field>
+		<field name="airport">POM</field>
+		<field name="narrative">The airline was established and started operations in 1987 and was originally known as Milne Bay Air or simply MBA. It operated as a charter company in the resource development industry. The airline obtained an RPT licence in September 1992 and received its airline licence in March 1997</field>
+		<field name="id">40</field>
+	</row>
+	<row>
+		<field name="name">Airphil Express</field>
+		<field name="iata">2P</field>
+		<field name="color">Black</field>
+		<field name="country">131</field>
+		<field name="ceo">IÃ±igo Zobel</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">CRK</field>
+		<field name="narrative"></field>
+		<field name="id">41</field>
+	</row>
+	<row>
+		<field name="name">Alaska Airlines</field>
+		<field name="iata">AS</field>
+		<field name="color">Black</field>
+		<field name="country">122</field>
+		<field name="ceo">Brad Tilden</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Regional</field>
+		<field name="airport">SEA</field>
+		<field name="narrative">The airline originated in 1932 as McGee Airways. After many mergers with and acquisitions of other airlines, including Star Air Service, it renamed itself Alaska Airlines in 1944. Since the retirement of its MD-80s in 2008, Alaska Airlines has been operating a fleet consisting of only Boeing 737s</field>
+		<field name="id">42</field>
+	</row>
+	<row>
+		<field name="name">Alitalia</field>
+		<field name="iata">AZ</field>
+		<field name="color">Green</field>
+		<field name="country">141</field>
+		<field name="ceo">Andrea Ragnetti</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">FCO</field>
+		<field name="narrative">Alitalia is a major Italian airline based in Rome, in operation since 1946. They fly to 86 destinations throughout the world on a fleet of 112 aircraft. The fleet primarily consists of Airbus aircraft.</field>
+		<field name="id">43</field>
+	</row>
+	<row>
+		<field name="name">All Nippon Airways</field>
+		<field name="iata">NH</field>
+		<field name="color">aquamarine</field>
+		<field name="country">171</field>
+		<field name="ceo">Shinichiro Ito</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">NRT</field>
+		<field name="narrative">All Nippon is the largest airline in Japan, operating since 1952 out of Tokyo. They fly to 81 destinations in Asia, U.S., and Europe on a fleet of 173 aircraft. The fleet consists almost exclusively of a wide range of Boeing aircraft. </field>
+		<field name="id">44</field>
+	</row>
+	<row>
+		<field name="name">Allegiant Air</field>
+		<field name="iata">G4</field>
+		<field name="color">Black</field>
+		<field name="country">122</field>
+		<field name="ceo">Maurice J. Gallagher, Jr.</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">LAX</field>
+		<field name="narrative"></field>
+		<field name="id">45</field>
+	</row>
+	<row>
+		<field name="name">Aloha Airlines</field>
+		<field name="iata">AQ</field>
+		<field name="color">Orangered</field>
+		<field name="country">122</field>
+		<field name="ceo">David Banmiller</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Regional</field>
+		<field name="airport">HNL</field>
+		<field name="narrative">Aloha Airlines was an American airline based in Honolulu, Hawaii, operating from Honolulu.  Operations began in 1946 but in the face of difficult economic conditions ceased in 2008. </field>
+		<field name="id">46</field>
+	</row>
+	<row>
+		<field name="name">American Airlines</field>
+		<field name="iata">AA</field>
+		<field name="color">Red</field>
+		<field name="country">122</field>
+		<field name="ceo">Tom Horton</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">DFW</field>
+		<field name="narrative">American Airlines is a major US airline operating it's headquarters at Dallas-Fort Worth, in operation since 1933. They operate over 1800 flights per day to 279 destionations around the world. The fleet consists of over 600 aircraft, notably the MD-82, 737, and 757. They currently do not operate any</field>
+		<field name="id">47</field>
+	</row>
+	<row>
+		<field name="name">AnadoluJet</field>
+		<field name="iata">TJ</field>
+		<field name="color">Black</field>
+		<field name="country">161</field>
+		<field name="ceo">Ibrahim DOGAN</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">ESB</field>
+		<field name="narrative"></field>
+		<field name="id">48</field>
+	</row>
+	<row>
+		<field name="name">Ariana Afghan Airlin</field>
+		<field name="iata">FG</field>
+		<field name="color">LightBlue</field>
+		<field name="country">253</field>
+		<field name="ceo">Moin Khan Wardak</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Local</field>
+		<field name="airport">KBL</field>
+		<field name="narrative">Ariana Afgan Airlines is the largest airline of Afghanistan and serves as the country's national carrier</field>
+		<field name="id">49</field>
+	</row>
+	<row>
+		<field name="name">Arik Air</field>
+		<field name="iata">W3</field>
+		<field name="color">Darkblue</field>
+		<field name="country">145</field>
+		<field name="ceo">Michael Arumemi-Ikhide</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Regional</field>
+		<field name="airport">LOS</field>
+		<field name="narrative">Arik Air is a Nigerian airline operating a domestic, regional and international flight network. It is currently the largest airline operator in Nigeria and also the national carrier of Sierra Leone. It operates mainly from two hubs at Murtala Mohammed International Airport, Lagos and Nnamdi Azikiwe </field>
+		<field name="id">50</field>
+	</row>
+	<row>
+		<field name="name">Asiana Airlines</field>
+		<field name="iata">OZ</field>
+		<field name="color">Gray</field>
+		<field name="country">165</field>
+		<field name="ceo">Park Chan-Bup</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global </field>
+		<field name="airport">ICN</field>
+		<field name="narrative">Asiana is a major South Korean airline operated since 1988 out of Seoul. They operate a fleet of 80 aircraft to 96 destinations worldwide. Their fleet consists of a mixture of Boeing and Airbus aircraft</field>
+		<field name="id">51</field>
+	</row>
+	<row>
+		<field name="name">Atlas Air</field>
+		<field name="iata">5Y</field>
+		<field name="color">DarkBlue</field>
+		<field name="country">122</field>
+		<field name="ceo">William J. Flynn</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global </field>
+		<field name="airport">JFK</field>
+		<field name="narrative">Atlas Air, Inc. is an American cargo and passenger charter airline based in Purchase, Harrison, New York. The airline was founded in April 1992 by the late Pakistani American aerospace enthusiast Michael Chowdry, to specialise in the long-term contract outsourcing of its Boeing 747 aircraft.</field>
+		<field name="id">52</field>
+	</row>
+	<row>
+		<field name="name">Atlas Blue</field>
+		<field name="iata">8A</field>
+		<field name="color">Orange</field>
+		<field name="country">133</field>
+		<field name="ceo">Driss Benhima</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Regional</field>
+		<field name="airport">RAK</field>
+		<field name="narrative">Atlas Blue was a low-cost airline with its head office on the grounds of Marrakech-Menara Airport in Marrakech, Morocco, operating out of Menara International Airport</field>
+		<field name="id">53</field>
+	</row>
+	<row>
+		<field name="name">Australian Airlines</field>
+		<field name="iata">AO</field>
+		<field name="color">Orange</field>
+		<field name="country">116</field>
+		<field name="ceo">Clive MacPherson</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">SYD</field>
+		<field name="narrative">Australian Airlines was a commuter subsidiary of Qantas, based out of Cairns from 2001 to 2006. They fleet to 13 mainly Asian desinations on a fleet of 5 Boeing 767s.</field>
+		<field name="id">54</field>
+	</row>
+	<row>
+		<field name="name">Austrian Airlines</field>
+		<field name="iata">OS</field>
+		<field name="color">Red</field>
+		<field name="country">169</field>
+		<field name="ceo">Jaan Albrecht</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global </field>
+		<field name="airport">VIE</field>
+		<field name="narrative">Austrian Airlines is the flag carrier airline of Austria, headquartered in Office Park 2 on the grounds of Vienna International Airport in Schwechat and a subsidiary of Deutsche Lufthansa AG. Since July 1, 2012 all flights are operated by subsidiary Tyrolean Airways under the brand name Austrian. It</field>
+		<field name="id">55</field>
+	</row>
+	<row>
+		<field name="name">Avianca S.A</field>
+		<field name="iata">AV</field>
+		<field name="color">Red</field>
+		<field name="country">183</field>
+		<field name="ceo">Fabio Villegas RamÃ­rez</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Regional</field>
+		<field name="airport">BOG</field>
+		<field name="narrative">Avianca S.A is the flag carrier airline of Colombia since December 5, 1919 when it was initially registered under the name SCADTA</field>
+		<field name="id">56</field>
+	</row>
+	<row>
+		<field name="name">Azerbaijan Airlines</field>
+		<field name="iata">J2</field>
+		<field name="color">LightBlue</field>
+		<field name="country">235</field>
+		<field name="ceo">Jahangir Askerov</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Local</field>
+		<field name="airport">GYD</field>
+		<field name="narrative">Azerbaijan Airlines is the flag carrier of Azerbaijan, with its head office in Baku. Its main base is Heydar Aliyev International Airport in Baku, from which it operates a network of scheduled passenger and cargo services</field>
+		<field name="id">57</field>
+	</row>
+	<row>
+		<field name="name">Azul</field>
+		<field name="iata">AD</field>
+		<field name="color">Black</field>
+		<field name="country">138</field>
+		<field name="ceo">Pedro Janot</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">VCP</field>
+		<field name="narrative"></field>
+		<field name="id">58</field>
+	</row>
+	<row>
+		<field name="name">Bearskin Airlines</field>
+		<field name="iata">JV</field>
+		<field name="color">Orange</field>
+		<field name="country">113</field>
+		<field name="ceo">John Hegland</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Local</field>
+		<field name="airport">YXL</field>
+		<field name="narrative">The airline was established in 1963 by bush pilot Otto John Hegland and started operations in July 1963 from its base at Big Trout Lake, Ontario (but was named after Bearskin Lake where Hegland had a general store)</field>
+		<field name="id">59</field>
+	</row>
+	<row>
+		<field name="name">Belavia Belarusian A</field>
+		<field name="iata">B2</field>
+		<field name="color">Red</field>
+		<field name="country">217</field>
+		<field name="ceo">Anatoliy Nikolaevich Gusarov</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Regional</field>
+		<field name="airport">MSQ</field>
+		<field name="narrative">Belavia Belarusian Airlines is the national airline company of Belarus, headquartered in Minsk</field>
+		<field name="id">60</field>
+	</row>
+	<row>
+		<field name="name">Belle Air</field>
+		<field name="iata">LZ</field>
+		<field name="color">Black</field>
+		<field name="country">242</field>
+		<field name="ceo">A. Xhelo</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">TIA</field>
+		<field name="narrative"></field>
+		<field name="id">61</field>
+	</row>
+	<row>
+		<field name="name">Big Sky Airlines</field>
+		<field name="iata">CQ</field>
+		<field name="color">DarkBlue</field>
+		<field name="country">122</field>
+		<field name="ceo">George Clark</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Local</field>
+		<field name="airport">BIL</field>
+		<field name="narrative">Big Sky Airlines was a US commuter airline in service from 1978 to 2008 out of Billings, Montana. They operated 10 Beechcraft 1900Ds to several regional destiations.</field>
+		<field name="id">62</field>
+	</row>
+	<row>
+		<field name="name">Blu-express</field>
+		<field name="iata">BV</field>
+		<field name="color">Black</field>
+		<field name="country">141</field>
+		<field name="ceo">SkÃºli Mogensen</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">FCO</field>
+		<field name="narrative"></field>
+		<field name="id">63</field>
+	</row>
+	<row>
+		<field name="name">Blue Air</field>
+		<field name="iata">0B</field>
+		<field name="color">Black</field>
+		<field name="country">147</field>
+		<field name="ceo">Sheriff Ussama</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">OTP</field>
+		<field name="narrative"></field>
+		<field name="id">64</field>
+	</row>
+	<row>
+		<field name="name">Boliviana de Aviacio</field>
+		<field name="iata">OB</field>
+		<field name="color">Red</field>
+		<field name="country">211</field>
+		<field name="ceo">Ronald Casso</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Local</field>
+		<field name="airport">LPB</field>
+		<field name="narrative">Boliviana de Aviacion or simply called BoA is the state-owned national flag carrier airline of Bolivia along with private airline AeroSur</field>
+		<field name="id">65</field>
+	</row>
+	<row>
+		<field name="name">British Airways</field>
+		<field name="iata">BA</field>
+		<field name="color">GreenYello</field>
+		<field name="country">130</field>
+		<field name="ceo">Keith Williams</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">LHR</field>
+		<field name="narrative">British Airways is the flag airline of the UK, based out of London since 1974. They operate a fleet of over 250 aircraft to 169 destionations, excluding subsidiaries. Their fleet consists of Airbus A320s and Boeing 747, 767, and 777s.</field>
+		<field name="id">66</field>
+	</row>
+	<row>
+		<field name="name">Buddha Air</field>
+		<field name="iata">U4</field>
+		<field name="color">Blue</field>
+		<field name="country">251</field>
+		<field name="ceo">Surendra Bahadur Basnet</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Regional</field>
+		<field name="airport">KTM</field>
+		<field name="narrative">Buddha Air is a small Nepalese airline offering flights since 1997 to Nepal and short-haul international destinations. They operate a fleet of 9 aircraft, consisting of 3 each ATR 42-320 and 72-500, and Beechcraft 1900D.</field>
+		<field name="id">67</field>
+	</row>
+	<row>
+		<field name="name">Caledonian Airways</field>
+		<field name="iata">KG</field>
+		<field name="color">Purple</field>
+		<field name="country">130</field>
+		<field name="ceo">Thomas Owen</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">LGW</field>
+		<field name="narrative">Caledonian Airways was a private Scottish charter airline in the 1960s. They flew 11 Boeing 707s and 3 BAC 111-500s to destinations throughout the world as needed.</field>
+		<field name="id">68</field>
+	</row>
+	<row>
+		<field name="name">Canadian Airways</field>
+		<field name="iata">CAA</field>
+		<field name="color">Red</field>
+		<field name="country">113</field>
+		<field name="ceo">Mark Benson</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">YYZ</field>
+		<field name="narrative">Canadian Airways is fictional for our purposed, however used to operate in the 1930s.</field>
+		<field name="id">69</field>
+	</row>
+	<row>
+		<field name="name">Caribbean Airlines</field>
+		<field name="iata">BW</field>
+		<field name="color">DeepPink</field>
+		<field name="country">205</field>
+		<field name="ceo">Robert Corbie</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Regional</field>
+		<field name="airport">POS</field>
+		<field name="narrative">Caribbean Airlines is the flag carrier to Trinidad and Tobago and Jamaica (through its acqusition of Air Jamaica).</field>
+		<field name="id">70</field>
+	</row>
+	<row>
+		<field name="name">Cathay Pacific </field>
+		<field name="iata">CX</field>
+		<field name="color">MediumSeaG</field>
+		<field name="country">176</field>
+		<field name="ceo">John Slosar</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global </field>
+		<field name="airport">HKG</field>
+		<field name="narrative">Cathay Pacific is a large international airline and the flag carrier of Hong Kong, in operation since 1946. They serve 168 destinations throughout the world, including a comprehensive service to Asia. Their fleet of long range widebodys from both Boeing and Airbus.</field>
+		<field name="id">71</field>
+	</row>
+	<row>
+		<field name="name">Cebu Pacific Air</field>
+		<field name="iata">5J</field>
+		<field name="color">DarkCyan</field>
+		<field name="country">131</field>
+		<field name="ceo">Lance Gokongwei</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global </field>
+		<field name="airport">MNL</field>
+		<field name="narrative">Cebu Pacific is an airline based in Manila since 1988. They fly to 33 South/East Asia destinations on a fleet of 33 Airbus A320s and 7 ATR 72-500s.</field>
+		<field name="id">72</field>
+	</row>
+	<row>
+		<field name="name">China Eastern Airlin</field>
+		<field name="iata">MU</field>
+		<field name="color">Blue</field>
+		<field name="country">148</field>
+		<field name="ceo">Liu Shaoyang</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global </field>
+		<field name="airport">SHA</field>
+		<field name="narrative">China Eastern is a major Chinese airline in operation out of Shanghai since 1988. They operate a fleet of 300 aircraft to 110 domestic and international locations. Their fleet is a broad mix of Boeing, Airbus, Bombardier, and Embraer.</field>
+		<field name="id">73</field>
+	</row>
+	<row>
+		<field name="name">China Airlines</field>
+		<field name="iata">CI</field>
+		<field name="color">Salmon</field>
+		<field name="country">172</field>
+		<field name="ceo">Zhang Jiazhu</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">TPE</field>
+		<field name="narrative">China Airlines is the flag carrier of the Republic of China (Taiwan). They fly to 112 worldwide destinations on a mixed fleet of Boeing and Airbus aircraft. </field>
+		<field name="id">74</field>
+	</row>
+	<row>
+		<field name="name">China Southern Airli</field>
+		<field name="iata">CZ</field>
+		<field name="color">Khaki</field>
+		<field name="country">148</field>
+		<field name="ceo">Si Xianmin</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">CAN</field>
+		<field name="narrative">China Southern is an airline from Guangzhou, China. They serve primarily Chinese airports with limited overseas destinations. Their fleet consists primarily of the Airbus A320 and Boeing 737s with international destinations served by A330, B777, and A380s.</field>
+		<field name="id">75</field>
+	</row>
+	<row>
+		<field name="name">Citilink</field>
+		<field name="iata">QG</field>
+		<field name="color">Black</field>
+		<field name="country">162</field>
+		<field name="ceo">Arif Wibowo</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">SUB</field>
+		<field name="narrative"></field>
+		<field name="id">76</field>
+	</row>
+	<row>
+		<field name="name">Continental Airlines</field>
+		<field name="iata">CO</field>
+		<field name="color">DarkBlue</field>
+		<field name="country">122</field>
+		<field name="ceo">Walter Varney</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">IAH</field>
+		<field name="narrative">Continental Airlines was a major U.S. based airline for over 75 years, operating a fleet of 340 aircraft to 140 destinations prior to its merger with Delta in 2012.</field>
+		<field name="id">77</field>
+	</row>
+	<row>
+		<field name="name">Copa Airlines Colomb</field>
+		<field name="iata">CM</field>
+		<field name="color">DarkBlue</field>
+		<field name="country">183</field>
+		<field name="ceo">Eduardo Lombana</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Regional</field>
+		<field name="airport">BOG</field>
+		<field name="narrative">Copa Airlines Colombia is an airline based in BogotÃ¡, Colombia. It is the third largest air carrier in Colombia.</field>
+		<field name="id">78</field>
+	</row>
+	<row>
+		<field name="name">Cubana de AviaciÃ³n</field>
+		<field name="iata">CU</field>
+		<field name="color">Blue</field>
+		<field name="country">198</field>
+		<field name="ceo">Arturo Bada Ãlvarez</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Local </field>
+		<field name="airport">HAV</field>
+		<field name="narrative"> Cubana is Cuba's flag carrier, as well as the country's largest airline. It was founded in October 1929, becoming one of the earliest airlines to emerge in Latin America</field>
+		<field name="id">79</field>
+	</row>
+	<row>
+		<field name="name">Cyprus Airways</field>
+		<field name="iata">CY</field>
+		<field name="color">Gold</field>
+		<field name="country">154</field>
+		<field name="ceo">Stavros Stavrou</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Regional</field>
+		<field name="airport">LCA</field>
+		<field name="narrative">Cyprus Airways is the national airline of Cyprus, operating out of Larnaca since 1947. They operate flights to European and Asian destinations on a fleet of 11 Airbus A320s.</field>
+		<field name="id">80</field>
+	</row>
+	<row>
+		<field name="name">Danish Air Transport</field>
+		<field name="iata">DX</field>
+		<field name="color">Red</field>
+		<field name="country">110</field>
+		<field name="ceo">Jesper Rungholm</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Regional</field>
+		<field name="airport">CPH</field>
+		<field name="narrative">Danish Air Transport, abbreviated DAT, is an airline based at Vamdrup, Denmark, operating scheduled and chartered passenger and cargo flights.</field>
+		<field name="id">81</field>
+	</row>
+	<row>
+		<field name="name">Delta Air Lines</field>
+		<field name="iata">DL</field>
+		<field name="color">MediumBlue</field>
+		<field name="country">122</field>
+		<field name="ceo">Richard Anderson</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">ATL</field>
+		<field name="narrative">Delta Air Lines is a major US airline operating out of Atlanta. Their flights serve every continent except Antarctica. The fleet is over 700 in size, consisting largely of Boeing 757s, MD-88s, Boeing 767, Airbus A320, and Boeing 737s.</field>
+		<field name="id">82</field>
+	</row>
+	<row>
+		<field name="name">Dinar Lineas Aereas</field>
+		<field name="iata">D7</field>
+		<field name="color">Gold</field>
+		<field name="country">106</field>
+		<field name="ceo">Manuel Santosa</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Local</field>
+		<field name="airport">EZE</field>
+		<field name="narrative">Dinar Lineas Aereas was an Argentinian airline based in Salta which operated through the 1990s until 2002. They operated regular flights to several South American destinations on a varied fleet of Boeing, Airbus, and McDonell Douglas aircraft.</field>
+		<field name="id">83</field>
+	</row>
+	<row>
+		<field name="name">Druk Air Corporation</field>
+		<field name="iata">KB</field>
+		<field name="color">Orange</field>
+		<field name="country">252</field>
+		<field name="ceo">Tandin Jamso</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Regional</field>
+		<field name="airport">PBH</field>
+		<field name="narrative">Druk Air Corporation is the national flag carrier of Bhutan and serves destinations in South and South East Asia through its hub in Paro Airport.</field>
+		<field name="id">84</field>
+	</row>
+	<row>
+		<field name="name">Dutch Antilles Expre</field>
+		<field name="iata">9H</field>
+		<field name="color">LightGreen</field>
+		<field name="country">246</field>
+		<field name="ceo">Nelson Ramiz</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Local</field>
+		<field name="airport">CUR</field>
+		<field name="narrative">Dutch Antilles Express is an airline of the Dutch country of CuraÃ§ao. It operates high-frequency scheduled services in the Dutch Caribbean to Venezuela, United States, and the Dominican Republic. Its main base is at Hato International Airport, CuraÃ§ao</field>
+		<field name="id">85</field>
+	</row>
+	<row>
+		<field name="name">Eaglexpress</field>
+		<field name="iata">9A</field>
+		<field name="color">Red</field>
+		<field name="country">173</field>
+		<field name="ceo">Azlan Zainal Abidin</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Regional</field>
+		<field name="airport">KUL</field>
+		<field name="narrative">Eaglexpress is a charter airline baes in Malaysia. It is a Joint Venture of Malaysian and South Korean investors, with a 60-40 split. Specializing in Pilgrimage Charters, they operate a single Boeing 747-400 acquired from Malaysia Airlines, and is in the process of adding 2 Boeing 747-400's and up t</field>
+		<field name="id">86</field>
+	</row>
+	<row>
+		<field name="name">Eastar Jet</field>
+		<field name="iata">ZE</field>
+		<field name="color">Black</field>
+		<field name="country">165</field>
+		<field name="ceo">Dal-Ho Kang</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">ICN</field>
+		<field name="narrative"></field>
+		<field name="id">87</field>
+	</row>
+	<row>
+		<field name="name">EasyFly</field>
+		<field name="iata">EF</field>
+		<field name="color">Black</field>
+		<field name="country">183</field>
+		<field name="ceo">Alfonso Ãvila</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">BOG</field>
+		<field name="narrative"></field>
+		<field name="id">88</field>
+	</row>
+	<row>
+		<field name="name">EasyJet</field>
+		<field name="iata">U2</field>
+		<field name="color">Orange</field>
+		<field name="country">130</field>
+		<field name="ceo">Carolyn McCall</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Regional</field>
+		<field name="airport">LGW</field>
+		<field name="narrative">EasyJet Airline Company Limited is a British airline headquartered at London Luton Airport. It is the largest airline of the United Kingdom, measured by number of passengers carried, operating domestic and international scheduled services on over 600 routes across more than 30 countries. The parent </field>
+		<field name="id">89</field>
+	</row>
+	<row>
+		<field name="name">EgyptAir</field>
+		<field name="iata">MS</field>
+		<field name="color">GoldenRod</field>
+		<field name="country">155</field>
+		<field name="ceo">Hossam Kama</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Regional</field>
+		<field name="airport">CAI</field>
+		<field name="narrative">EgyptAir is the flag carrier airline of Egypt.The airline is based at Cairo International Airport, its main hub, operating scheduled passenger and freight services to more than 75 destinations in the Middle East, Europe, Africa, Asia, and the Americas. An extensive network of domestic services is fo</field>
+		<field name="id">90</field>
+	</row>
+	<row>
+		<field name="name">El Al Israel Airline</field>
+		<field name="iata">LY</field>
+		<field name="color">Blue</field>
+		<field name="country">128</field>
+		<field name="ceo">Eliezer Shkedi</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">TLV</field>
+		<field name="narrative">Considered one of the most secure airlines in the world, El Al is Israel's flag carrier, flying globally with an all-Boeing fleet.</field>
+		<field name="id">91</field>
+	</row>
+	<row>
+		<field name="name">Emirates</field>
+		<field name="iata">EK</field>
+		<field name="color">LightPink</field>
+		<field name="country">156</field>
+		<field name="ceo">Tim Clark</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">DXB</field>
+		<field name="narrative">Emirates is the largest airline in the Middle East, operating out of Dubai since 1985. They currently fly to 129 destinations around the world on a fleet of A330, A340, A380, and 777s. </field>
+		<field name="id">92</field>
+	</row>
+	<row>
+		<field name="name">Estonian Air</field>
+		<field name="iata">OV</field>
+		<field name="color">DarkCyan</field>
+		<field name="country">117</field>
+		<field name="ceo">Jan Palmer</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Local</field>
+		<field name="airport">TLL</field>
+		<field name="narrative">Estonian Air is the flag airline of Estonia, based out of Tallinn since 1991. They operate a fleet of 11 Embraer, SAAB, and Bombardier aircraft to 24 European destinations</field>
+		<field name="id">93</field>
+	</row>
+	<row>
+		<field name="name">Ethiopian Airlines</field>
+		<field name="iata">ET</field>
+		<field name="color">Gold</field>
+		<field name="country">124</field>
+		<field name="ceo">Tewolde Gebremariam</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Regional</field>
+		<field name="airport">ADD</field>
+		<field name="narrative">Ethiopian Airlines is its country's flag carrier and is wholly owned by the Government of Ethiopia</field>
+		<field name="id">94</field>
+	</row>
+	<row>
+		<field name="name">EuroLOT</field>
+		<field name="iata">K2</field>
+		<field name="color">Black</field>
+		<field name="country">135</field>
+		<field name="ceo">Grazyna Zaleska Ston</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">WAW</field>
+		<field name="narrative"></field>
+		<field name="id">95</field>
+	</row>
+	<row>
+		<field name="name">Fastjet</field>
+		<field name="iata">FN</field>
+		<field name="color">Black</field>
+		<field name="country">146</field>
+		<field name="ceo">Ed Winter</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">DAR</field>
+		<field name="narrative"></field>
+		<field name="id">96</field>
+	</row>
+	<row>
+		<field name="name">FedEx Express</field>
+		<field name="iata">FX</field>
+		<field name="color">Orange</field>
+		<field name="country">122</field>
+		<field name="ceo">Frederick W. Smith</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">MEM</field>
+		<field name="narrative">FedEx Express is a cargo airline based in Memphis, Tennessee, United States. It is the world's largest airline in terms of freight tons flown and the world's fourth largest in terms of fleet size.</field>
+		<field name="id">97</field>
+	</row>
+	<row>
+		<field name="name">Fiji Airways</field>
+		<field name="iata">FJ</field>
+		<field name="color">Gray</field>
+		<field name="country">114</field>
+		<field name="ceo">Dave Pflieger</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Local</field>
+		<field name="airport">NAN</field>
+		<field name="narrative">Fiji Airways is Fiji's national airline was established and started operations in 1951. It was founded by Australian aviator Harold Gatty.</field>
+		<field name="id">98</field>
+	</row>
+	<row>
+		<field name="name">Finnair</field>
+		<field name="iata">AY</field>
+		<field name="color">Navy</field>
+		<field name="country">167</field>
+		<field name="ceo">Mika Vehvilainen</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global </field>
+		<field name="airport">HEL</field>
+		<field name="narrative">Finnair is the flag carrier and largest airline of Finland, with its headquarters in Vantaa and its main hub at Helsinki-Vantaa Airport. Finnair and its subsidiaries dominate both the domestic and international air travel markets in Finland, and its largest owner is the government of Finland, with 5</field>
+		<field name="id">99</field>
+	</row>
+	<row>
+		<field name="name">Firefly</field>
+		<field name="iata">FY</field>
+		<field name="color">Orange</field>
+		<field name="country">173</field>
+		<field name="ceo">Ignatius Ong</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">KUL</field>
+		<field name="narrative">Firefly is a full-service point-to-point carrier and a full subsidiary of Air Asia. Operating a fleet composed of 12 ATR-72-500's, with orders for 20 ATR 72-600 aircraft, Firefly flies to 19 destinations in Malaysia, Singapore, Indonesia and Thailand. </field>
+		<field name="id">100</field>
+	</row>
+	<row>
+		<field name="name">Flybe</field>
+		<field name="iata">BE</field>
+		<field name="color">Aqua</field>
+		<field name="country">130</field>
+		<field name="ceo">Jim French</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Regional</field>
+		<field name="airport">SOU</field>
+		<field name="narrative">Flybe is Europe's largest regional airline and from Jersey European and British European airways merged to form the Flybe Group in 2007.  It carried over 6.7 million passengers in 2010. </field>
+		<field name="id">101</field>
+	</row>
+	<row>
+		<field name="name">Frontier Airlines</field>
+		<field name="iata">F9</field>
+		<field name="color">ForestGree</field>
+		<field name="country">122</field>
+		<field name="ceo">David Siegel</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Regional</field>
+		<field name="airport">DEN</field>
+		<field name="narrative">Frontier Airlines is a US budget airline operating out of Denver since 1994. They operate flights to over 70 destinations on a fleet of 70 consisting of Airbus A320 and Embraer E-190s.</field>
+		<field name="id">102</field>
+	</row>
+	<row>
+		<field name="name">Garuda Indonesia</field>
+		<field name="iata">GA</field>
+		<field name="color">LightSlate</field>
+		<field name="country">162</field>
+		<field name="ceo">Emirsyah Satar</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global </field>
+		<field name="airport">CGK</field>
+		<field name="narrative">Garuda Indonesia is the flag airline of Indonesia, operating out of Jakarta since 1949. They operate flights to 85 destinations, mostly domestic, on a fleet dominated by the Boeing 737 and Airbus A330.</field>
+		<field name="id">103</field>
+	</row>
+	<row>
+		<field name="name">Gemini Air Cargo</field>
+		<field name="iata">GR</field>
+		<field name="color">Yellow</field>
+		<field name="country">122</field>
+		<field name="ceo">Sam Woodward</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Global </field>
+		<field name="airport">MIA</field>
+		<field name="narrative">Gemini Air Cargo was an american cargo airline, which was established in December 1995 by William Stockbridge, with financial backing from Lehman Brothers and Green Tree Capital.</field>
+		<field name="id">104</field>
+	</row>
+	<row>
+		<field name="name">German Wings</field>
+		<field name="iata">GER</field>
+		<field name="color">DarkRed</field>
+		<field name="country">163</field>
+		<field name="ceo">Franz Ã–tzel</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Local</field>
+		<field name="airport">THF</field>
+		<field name="narrative">Germanwings GmbH is a low-cost airline based in Cologne, Germany, and is wholly owned by Lufthansa. Cologne Bonn Airport, Stuttgart Airport and to a lesser extent Berlin-SchÃ¶nefeld Airport are the important hubs in the airline's network of approximately 86 destinations. Further Germanwings bases ar</field>
+		<field name="id">105</field>
+	</row>
+	<row>
+		<field name="name">GoAir</field>
+		<field name="iata">G8</field>
+		<field name="color">Black</field>
+		<field name="country">152</field>
+		<field name="ceo">Giorgio De Roni</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">BOM</field>
+		<field name="narrative"></field>
+		<field name="id">106</field>
+	</row>
+	<row>
+		<field name="name">Gol Transportes AÃ©r</field>
+		<field name="iata">G3</field>
+		<field name="color">Black</field>
+		<field name="country">138</field>
+		<field name="ceo">Constantino de Oliveira Junior</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">GIG</field>
+		<field name="narrative"></field>
+		<field name="id">107</field>
+	</row>
+	<row>
+		<field name="name">Great Lakes Airlines</field>
+		<field name="iata">ZK</field>
+		<field name="color">DarkBlue</field>
+		<field name="country">122</field>
+		<field name="ceo">Doug Voss</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Local</field>
+		<field name="airport">DEN</field>
+		<field name="narrative">Great Lakes Airlines serves 48 of its destinations through the Essential Air Service program and is the largest Essential Air Service provider in the United States.</field>
+		<field name="id">108</field>
+	</row>
+	<row>
+		<field name="name">Gulf Air</field>
+		<field name="iata">GF</field>
+		<field name="color">DarkBlue</field>
+		<field name="country">151</field>
+		<field name="ceo">Maher Salman Jabor Al Musallam</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Local</field>
+		<field name="airport">BAH</field>
+		<field name="narrative">Gulf Air  is the principal flag carrier of the Kingdom of Bahrain. Headquartered in Muharraq, adjacent to Bahrain International Airport, the airline operates scheduled services to 41 destinations in 30 countries across Africa, Asia and Europe. Its main base is Bahrain International Airport.</field>
+		<field name="id">109</field>
+	</row>
+	<row>
+		<field name="name">Hainan Airlines</field>
+		<field name="iata">HU</field>
+		<field name="color">blanchedal</field>
+		<field name="country">148</field>
+		<field name="ceo">Chen Ming</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">HAK</field>
+		<field name="narrative"></field>
+		<field name="id">110</field>
+	</row>
+	<row>
+		<field name="name">Hokkaido Internation</field>
+		<field name="iata">HD</field>
+		<field name="color">blueviolet</field>
+		<field name="country">171</field>
+		<field name="ceo">Sadao Saito</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Local</field>
+		<field name="airport">HND</field>
+		<field name="narrative"></field>
+		<field name="id">111</field>
+	</row>
+	<row>
+		<field name="name">Iberia</field>
+		<field name="iata">IB</field>
+		<field name="color">Orangered</field>
+		<field name="country">123</field>
+		<field name="ceo">Antonio Vazquez</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">MAD</field>
+		<field name="narrative">Iberia LÃ­neas AÃ©reas de EspaÃ±a, S.A., commonly known as Iberia, is the flag carrier airline of Spain. Based in Madrid, it operates an international network of services from its main bases of Madrid-Barajas Airport and Barcelona El Prat Airport.</field>
+		<field name="id">112</field>
+	</row>
+	<row>
+		<field name="name">Icelandair</field>
+		<field name="iata">FI</field>
+		<field name="color">MidnightBl</field>
+		<field name="country">121</field>
+		<field name="ceo">Bikir Holm Guonason</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Regional</field>
+		<field name="airport">KEF</field>
+		<field name="narrative"></field>
+		<field name="id">113</field>
+	</row>
+	<row>
+		<field name="name">IndiGo</field>
+		<field name="iata">6E</field>
+		<field name="color">LightBlue</field>
+		<field name="country">152</field>
+		<field name="ceo">Rahul Bhatia</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Regional</field>
+		<field name="airport">DEL</field>
+		<field name="narrative">IndiGo is a low cost carrier and largest airline in India.</field>
+		<field name="id">114</field>
+	</row>
+	<row>
+		<field name="name">Indonesia AirAsia</field>
+		<field name="iata">QZ</field>
+		<field name="color">Black</field>
+		<field name="country">162</field>
+		<field name="ceo">Pin Harris</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">CGK</field>
+		<field name="narrative"></field>
+		<field name="id">115</field>
+	</row>
+	<row>
+		<field name="name">Insel Air</field>
+		<field name="iata">7I</field>
+		<field name="color">Blue</field>
+		<field name="country">246</field>
+		<field name="ceo">Henry van der Kwast </field>
+		<field name="mentality">Safe</field>
+		<field name="market">Local </field>
+		<field name="airport">CUR</field>
+		<field name="narrative">Insel Air started operations in August 2006 with one Embraer 110-P1 Bandeirante flying from CuraÃ§ao. The first flight was to the neighbouring island of Aruba</field>
+		<field name="id">116</field>
+	</row>
+	<row>
+		<field name="name">Interjet</field>
+		<field name="iata">4O</field>
+		<field name="color">Black</field>
+		<field name="country">157</field>
+		<field name="ceo">Miguel Aleman Magnani </field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">MEX</field>
+		<field name="narrative"></field>
+		<field name="id">117</field>
+	</row>
+	<row>
+		<field name="name">Intra Airways</field>
+		<field name="iata">JY</field>
+		<field name="color">Red</field>
+		<field name="country">130</field>
+		<field name="ceo">Mike Thomas</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Local</field>
+		<field name="airport">JER</field>
+		<field name="narrative"></field>
+		<field name="id">118</field>
+	</row>
+	<row>
+		<field name="name">Japan Airlines</field>
+		<field name="iata">JL</field>
+		<field name="color">Brown</field>
+		<field name="country">171</field>
+		<field name="ceo">Kazuo Inamori</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">HND</field>
+		<field name="narrative"></field>
+		<field name="id">119</field>
+	</row>
+	<row>
+		<field name="name">Jazeera Airways</field>
+		<field name="iata">J9</field>
+		<field name="color">Black</field>
+		<field name="country">126</field>
+		<field name="ceo">Stefan Pichler</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">KWI</field>
+		<field name="narrative"></field>
+		<field name="id">120</field>
+	</row>
+	<row>
+		<field name="name">Jeju Air</field>
+		<field name="iata">7C</field>
+		<field name="color">Black</field>
+		<field name="country">165</field>
+		<field name="ceo">Kyu Nam Choi</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">ICN</field>
+		<field name="narrative"></field>
+		<field name="id">121</field>
+	</row>
+	<row>
+		<field name="name">Jet2.com</field>
+		<field name="iata">LS</field>
+		<field name="color">Black</field>
+		<field name="country">130</field>
+		<field name="ceo">Philip Meeson</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">MAN</field>
+		<field name="narrative"></field>
+		<field name="id">122</field>
+	</row>
+	<row>
+		<field name="name">Jet4you</field>
+		<field name="iata">8J</field>
+		<field name="color">Black</field>
+		<field name="country">133</field>
+		<field name="ceo">Jawad Ziyat</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">CMN</field>
+		<field name="narrative"></field>
+		<field name="id">123</field>
+	</row>
+	<row>
+		<field name="name">JetLite</field>
+		<field name="iata">S2</field>
+		<field name="color">Yellow</field>
+		<field name="country">152</field>
+		<field name="ceo">Subrata Roy</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">BOM</field>
+		<field name="narrative"></field>
+		<field name="id">124</field>
+	</row>
+	<row>
+		<field name="name">Jet Airways</field>
+		<field name="iata">9W</field>
+		<field name="color">Navy</field>
+		<field name="country">152</field>
+		<field name="ceo">Naresh Goyal</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">BOM</field>
+		<field name="narrative">Jet Airways is the second largest airline in India and is parent company of JetLite.</field>
+		<field name="id">125</field>
+	</row>
+	<row>
+		<field name="name">Jetstar Airways</field>
+		<field name="iata">JQ</field>
+		<field name="color">Black</field>
+		<field name="country">116</field>
+		<field name="ceo">Jayne Hrdlicka</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Local</field>
+		<field name="airport">MEL</field>
+		<field name="narrative"></field>
+		<field name="id">126</field>
+	</row>
+	<row>
+		<field name="name">Jetstar Japan</field>
+		<field name="iata">GK</field>
+		<field name="color">Black</field>
+		<field name="country">171</field>
+		<field name="ceo">Miyuki Suzuki</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">NRT</field>
+		<field name="narrative"></field>
+		<field name="id">127</field>
+	</row>
+	<row>
+		<field name="name">Juneyao Airlines</field>
+		<field name="iata">HO</field>
+		<field name="color">Black</field>
+		<field name="country">148</field>
+		<field name="ceo">Wang Junjin</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">PVG</field>
+		<field name="narrative"></field>
+		<field name="id">128</field>
+	</row>
+	<row>
+		<field name="name">KLM</field>
+		<field name="iata">KL</field>
+		<field name="color">Cyan</field>
+		<field name="country">179</field>
+		<field name="ceo">P F Hartman</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global </field>
+		<field name="airport">AMS</field>
+		<field name="narrative">Koninklijke Luchtvaart Maatschappij N.V. (Royal Aviation Company), known by its initials KLM, is the flag carrier airline of the Netherlands. KLM's headquarters is in Amstelveen near its hub at Amsterdam Airport Schiphol. KLM operates worldwide scheduled passenger and cargo services to more than 90 </field>
+		<field name="id">129</field>
+	</row>
+	<row>
+		<field name="name">Kenya Airways</field>
+		<field name="iata">KQ</field>
+		<field name="color">Red</field>
+		<field name="country">146</field>
+		<field name="ceo">Titus Naikuni</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Regional</field>
+		<field name="airport">NBO</field>
+		<field name="narrative">Kenya Airways is the flag carrier of Kenya. The company was founded in 1977, after the dissolution of East African Airways</field>
+		<field name="id">130</field>
+	</row>
+	<row>
+		<field name="name">Key Airlines</field>
+		<field name="iata">KWY</field>
+		<field name="color">Black</field>
+		<field name="country">122</field>
+		<field name="ceo">Peter Hanson</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Local</field>
+		<field name="airport">SLC</field>
+		<field name="narrative"></field>
+		<field name="id">131</field>
+	</row>
+	<row>
+		<field name="name">Kingfisher Airlines</field>
+		<field name="iata">IT</field>
+		<field name="color">Firebrick</field>
+		<field name="country">152</field>
+		<field name="ceo">Sanjay Aggarwal</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Local</field>
+		<field name="airport">BLR</field>
+		<field name="narrative"></field>
+		<field name="id">132</field>
+	</row>
+	<row>
+		<field name="name">Korean Air</field>
+		<field name="iata">KE</field>
+		<field name="color">RoyalBlue</field>
+		<field name="country">165</field>
+		<field name="ceo">Cho Yangho</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">ICN</field>
+		<field name="narrative"></field>
+		<field name="id">133</field>
+	</row>
+	<row>
+		<field name="name">LAN Airlines</field>
+		<field name="iata">LA</field>
+		<field name="color">Darkblue</field>
+		<field name="country">160</field>
+		<field name="ceo">Enrique Cueto</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">SCL</field>
+		<field name="narrative">LAN Airlines S.A. is a group of South American Airlines based in Santiago, Chile and part of LATAM Airlines Group, Latin America's largest Airline holding. LATAM was formed by the takeover by LAN of Brazilian TAM Airlines which was completed on June 22, 2012, although both companies operate with dif</field>
+		<field name="id">134</field>
+	</row>
+	<row>
+		<field name="name">LOT Polish Airlines</field>
+		<field name="iata">LO</field>
+		<field name="color">DarkBlue</field>
+		<field name="country">135</field>
+		<field name="ceo">Marcin Pirog</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Regional</field>
+		<field name="airport">WAW</field>
+		<field name="narrative">Polskie Linie Lotnicze LOT S.A. trading as LOT Polish Airlines, is the flag carrier of Poland. Based in Warsaw, LOT was established in 1929, making it one of the world's oldest airlines still in operation. Using a fleet of 55 aircraft, LOT operates a complex network to 60 destinations in Europe, the</field>
+		<field name="id">135</field>
+	</row>
+	<row>
+		<field name="name">Laker Airways</field>
+		<field name="iata">6F</field>
+		<field name="color">Firebrick</field>
+		<field name="country">130</field>
+		<field name="ceo">Sir Freddie Laker</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Local</field>
+		<field name="airport">LGW</field>
+		<field name="narrative">Laker Airways was a wholly private, British independent airline founded by Sir Freddie Laker in 1966. It originally was a charter airline flying passengers and cargo worldwide</field>
+		<field name="id">136</field>
+	</row>
+	<row>
+		<field name="name">Leeward Islands Air </field>
+		<field name="iata">LI</field>
+		<field name="color">Red</field>
+		<field name="country">243</field>
+		<field name="ceo">Brian Challenger</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Local </field>
+		<field name="airport">ANU</field>
+		<field name="narrative">Leeward Islands Air Transport or LIAT, is an airline headquartered on the grounds of V. C. Bird International Airport in Antigua. It operates high-frequency inter-island scheduled services serving 21 destinations in the Caribbean</field>
+		<field name="id">137</field>
+	</row>
+	<row>
+		<field name="name">Lion Air</field>
+		<field name="iata">JT</field>
+		<field name="color">Red</field>
+		<field name="country">162</field>
+		<field name="ceo">Rudsi Kirana</field>
+		<field name="mentality">Safe </field>
+		<field name="market">Local</field>
+		<field name="airport">CGK</field>
+		<field name="narrative"></field>
+		<field name="id">138</field>
+	</row>
+	<row>
+		<field name="name">Lufthansa</field>
+		<field name="iata">LH</field>
+		<field name="color">Indigo</field>
+		<field name="country">1002</field>
+		<field name="ceo">Christoph Franz</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global </field>
+		<field name="airport">FRA</field>
+		<field name="narrative">Lufthansa German Airlines is the flag carrier of Germany and the largest airline in Europe, both in terms of overall passengers carried and fleet size</field>
+		<field name="id">139</field>
+	</row>
+	<row>
+		<field name="name">Malaysia Airlines</field>
+		<field name="iata">M1</field>
+		<field name="color">CadetBlue</field>
+		<field name="country">173</field>
+		<field name="ceo">Tan Sri Md Nor Yusof</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global </field>
+		<field name="airport">KUL</field>
+		<field name="narrative"></field>
+		<field name="id">140</field>
+	</row>
+	<row>
+		<field name="name">Mandala Airlines</field>
+		<field name="iata">RI</field>
+		<field name="color">Black</field>
+		<field name="country">162</field>
+		<field name="ceo">Paul Rombeek</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">CGK</field>
+		<field name="narrative"></field>
+		<field name="id">141</field>
+	</row>
+	<row>
+		<field name="name">Mango</field>
+		<field name="iata">JE</field>
+		<field name="color">Black</field>
+		<field name="country">158</field>
+		<field name="ceo">Nico Bezuidenhout</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">JNB</field>
+		<field name="narrative"></field>
+		<field name="id">142</field>
+	</row>
+	<row>
+		<field name="name">MASWings</field>
+		<field name="iata">MH</field>
+		<field name="color">MediumSeaG</field>
+		<field name="country">173</field>
+		<field name="ceo">Nasip Roslan</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">KUL</field>
+		<field name="narrative">MASwings is a regional airline owned by Malaysia Airlines and is dedicated to flying subsidized Rural Air Services in Malaysia, as well as limited service in Brunei and Indonesia. They operate 3 DHC-6 aircraft for poor runways and also the ATR 72-500 which is the backbone of their fleet, of which th</field>
+		<field name="id">143</field>
+	</row>
+	<row>
+		<field name="name">Mid-Sea Express</field>
+		<field name="iata">MX</field>
+		<field name="color">MediumSeaG</field>
+		<field name="country">131</field>
+		<field name="ceo">Ronan Villanueva</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Regional</field>
+		<field name="airport">MNL</field>
+		<field name="narrative">Mid-Sea Express started operations as an airline with a mission of serving places unserved by the major carriers. They started with a BAe Jetstream 37 but is now using 3 NAMC YS-11 aircraft to serve 7 destinations all over the Philippines. </field>
+		<field name="id">144</field>
+	</row>
+	<row>
+		<field name="name">Middle East Airlines</field>
+		<field name="iata">ME</field>
+		<field name="color">DarkGreen</field>
+		<field name="country">129</field>
+		<field name="ceo">Mohammed El-Hout</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Domestic</field>
+		<field name="airport">BEY</field>
+		<field name="narrative">Middle East Airlines was founded on 31 May 1945 by Saeb Salam and Tariq Shammaa and is the national flag-carrier airline of Lebanon</field>
+		<field name="id">145</field>
+	</row>
+	<row>
+		<field name="name">Monarch Airlines</field>
+		<field name="iata">ZB</field>
+		<field name="color">Black</field>
+		<field name="country">130</field>
+		<field name="ceo">Iain Rawlinson</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">MAN</field>
+		<field name="narrative"></field>
+		<field name="id">146</field>
+	</row>
+	<row>
+		<field name="name">Nas Air</field>
+		<field name="iata">XY</field>
+		<field name="color">Black</field>
+		<field name="country">136</field>
+		<field name="ceo">Sulaiman Bin Abdullah Al-Hamda</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">JED</field>
+		<field name="narrative"></field>
+		<field name="id">147</field>
+	</row>
+	<row>
+		<field name="name">Nationair</field>
+		<field name="iata">NXA</field>
+		<field name="color">DarkRed</field>
+		<field name="country">113</field>
+		<field name="ceo">Robert Obadia</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">YUL</field>
+		<field name="narrative"></field>
+		<field name="id">148</field>
+	</row>
+	<row>
+		<field name="name">Nationwide Airlines</field>
+		<field name="iata">CE</field>
+		<field name="color">Yellow</field>
+		<field name="country">158</field>
+		<field name="ceo">Vernon Bricknell</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Local</field>
+		<field name="airport">JNB</field>
+		<field name="narrative"></field>
+		<field name="id">149</field>
+	</row>
+	<row>
+		<field name="name">Nepal Airlines</field>
+		<field name="iata">RA</field>
+		<field name="color">Red</field>
+		<field name="country">251</field>
+		<field name="ceo">Yagya Prasad Gautam</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Regional</field>
+		<field name="airport">KTM</field>
+		<field name="narrative"></field>
+		<field name="id">150</field>
+	</row>
+	<row>
+		<field name="name">Nok Air</field>
+		<field name="iata">DD</field>
+		<field name="color">Black</field>
+		<field name="country">175</field>
+		<field name="ceo">Mr. Patee Sarasin</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">DMK</field>
+		<field name="narrative"></field>
+		<field name="id">151</field>
+	</row>
+	<row>
+		<field name="name">Nordwind Airlines</field>
+		<field name="iata">N4</field>
+		<field name="color">DarkRed</field>
+		<field name="country">149</field>
+		<field name="ceo">Lengarov A. Olegovich</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Regional</field>
+		<field name="airport">SVO</field>
+		<field name="narrative">Nordwind Airlines is headquartered in Moscow, with the city's Sheremetyevo International Airport (Terminal C) being the most important base for its flight operations. Nordwind Airlines links a multitude of airports in Russia with holiday destinations around the Mediterranean Sea and the Indian Ocean</field>
+		<field name="id">152</field>
+	</row>
+	<row>
+		<field name="name">Northeast Airlines</field>
+		<field name="iata">NS</field>
+		<field name="color">Gold</field>
+		<field name="country">130</field>
+		<field name="ceo">James Barnby</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Local</field>
+		<field name="airport">NCL</field>
+		<field name="narrative"></field>
+		<field name="id">153</field>
+	</row>
+	<row>
+		<field name="name">Northwest Airlines</field>
+		<field name="iata">NW</field>
+		<field name="color">Gray</field>
+		<field name="country">122</field>
+		<field name="ceo">Ed Bastian</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Local</field>
+		<field name="airport">MSP</field>
+		<field name="narrative">Northwest Airlines Corp. (often abbreviated NWA) was a major United States airline founded in 1926 and with headquarter in Minnesota</field>
+		<field name="id">154</field>
+	</row>
+	<row>
+		<field name="name">Norwegian Air Shuttl</field>
+		<field name="iata">DY</field>
+		<field name="color">DarkRed</field>
+		<field name="country">139</field>
+		<field name="ceo">BjÃ¸rn Kjos</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">GOT</field>
+		<field name="narrative"></field>
+		<field name="id">155</field>
+	</row>
+	<row>
+		<field name="name">Nouvelair</field>
+		<field name="iata">BJ</field>
+		<field name="color">Black</field>
+		<field name="country">144</field>
+		<field name="ceo">Aziz Milad</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">MIR</field>
+		<field name="narrative"></field>
+		<field name="id">156</field>
+	</row>
+	<row>
+		<field name="name">Olympic Airways</field>
+		<field name="iata">OA</field>
+		<field name="color">Aqua</field>
+		<field name="country">118</field>
+		<field name="ceo">Pyrros Papadimitriou</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">ATH</field>
+		<field name="narrative"></field>
+		<field name="id">157</field>
+	</row>
+	<row>
+		<field name="name">PAL Airlines</field>
+		<field name="iata">5P</field>
+		<field name="color">Black</field>
+		<field name="country">160</field>
+		<field name="ceo">Carlos Musiet</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">SCL</field>
+		<field name="narrative"></field>
+		<field name="id">158</field>
+	</row>
+	<row>
+		<field name="name">Pacific Sun</field>
+		<field name="iata">F4</field>
+		<field name="color">Yellow</field>
+		<field name="country">114</field>
+		<field name="ceo"> Shaenaz Voss</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Local</field>
+		<field name="airport">NAN</field>
+		<field name="narrative">Fiji Airlines Limited, trading as Pacific Sun is an airline headquartered at the Pacific Sun office in the Civil Aviation Authority of the Fiji Islands</field>
+		<field name="id">159</field>
+	</row>
+	<row>
+		<field name="name">Pacific Airways</field>
+		<field name="iata">PCA</field>
+		<field name="color">DarkGreen</field>
+		<field name="country">122</field>
+		<field name="ceo">Alex Wright</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">SFO</field>
+		<field name="narrative"></field>
+		<field name="id">160</field>
+	</row>
+	<row>
+		<field name="name">Pacific Southwest Ai</field>
+		<field name="iata">PS</field>
+		<field name="color">Orange</field>
+		<field name="country">122</field>
+		<field name="ceo">Kenny Friedkin</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Regional</field>
+		<field name="airport">LAX</field>
+		<field name="narrative"></field>
+		<field name="id">161</field>
+	</row>
+	<row>
+		<field name="name">Pan American World A</field>
+		<field name="iata">PA</field>
+		<field name="color">LightBlue</field>
+		<field name="country">122</field>
+		<field name="ceo">Russell Ray</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">JFK</field>
+		<field name="narrative"></field>
+		<field name="id">162</field>
+	</row>
+	<row>
+		<field name="name">Peach</field>
+		<field name="iata">MM</field>
+		<field name="color">Black</field>
+		<field name="country">171</field>
+		<field name="ceo">Shinichi Inoue</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">KIX</field>
+		<field name="narrative"></field>
+		<field name="id">163</field>
+	</row>
+	<row>
+		<field name="name">Pegasus Airlines</field>
+		<field name="iata">PC</field>
+		<field name="color">Black</field>
+		<field name="country">161</field>
+		<field name="ceo">Ali Sabanci</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">SAW</field>
+		<field name="narrative"></field>
+		<field name="id">164</field>
+	</row>
+	<row>
+		<field name="name">Peruvian Airlines</field>
+		<field name="iata">P9</field>
+		<field name="color">Black</field>
+		<field name="country">182</field>
+		<field name="ceo">Cesar Catano</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">LIM</field>
+		<field name="narrative"></field>
+		<field name="id">165</field>
+	</row>
+	<row>
+		<field name="name">Philippine Airlines</field>
+		<field name="iata">PR</field>
+		<field name="color">Blue</field>
+		<field name="country">131</field>
+		<field name="ceo">Lucio Tan</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">MNL</field>
+		<field name="narrative">Philippine Airlines is the flag carrier of the Philippines. Founded in 1941, it is the oldest commercial airline in Asia still under its original name. PAL serves 36 destinations over 14 countries using a mixed fleet of 33 Airbus jets and 9 Boeing jets.</field>
+		<field name="id">166</field>
+	</row>
+	<row>
+		<field name="name">Piedmont Airlines</field>
+		<field name="iata">PD</field>
+		<field name="color">DarkRed</field>
+		<field name="country">122</field>
+		<field name="ceo">Stephen Farrow</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Local</field>
+		<field name="airport">SBY</field>
+		<field name="narrative">Piedmont is a subsidiary of US Airways operating out of the small town of Salisbury, Maryland, US. They operate a fleet of 44 Dash-8s to 47 destinations along the East Coast.</field>
+		<field name="id">167</field>
+	</row>
+	<row>
+		<field name="name">Qantas</field>
+		<field name="iata">QF</field>
+		<field name="color">NavajoWhit</field>
+		<field name="country">116</field>
+		<field name="ceo">Alan Joyce</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">SYD</field>
+		<field name="narrative"></field>
+		<field name="id">168</field>
+	</row>
+	<row>
+		<field name="name">Qatar Airways</field>
+		<field name="iata">QR</field>
+		<field name="color">Purple</field>
+		<field name="country">180</field>
+		<field name="ceo">Akbar Al Baker</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global </field>
+		<field name="airport">DOH</field>
+		<field name="narrative"></field>
+		<field name="id">169</field>
+	</row>
+	<row>
+		<field name="name">Royal Air Maroc</field>
+		<field name="iata">AT</field>
+		<field name="color">Red</field>
+		<field name="country">133</field>
+		<field name="ceo">Driss Benhima</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Regional</field>
+		<field name="airport">CMN</field>
+		<field name="narrative">Royal Air Maroc literally Royal Moroccan Lines or Royal Moroccan Airlines; more commonly known as simply RAM, is the flag carrier of Morocco, as well as the country's largest airline. RAM is fully owned by the government of Morocco, and has its headquarters on the grounds of Casablanca-Anfa Airport.</field>
+		<field name="id">170</field>
+	</row>
+	<row>
+		<field name="name">Royal Tongan Airline</field>
+		<field name="iata">WR</field>
+		<field name="color">Red</field>
+		<field name="country">208</field>
+		<field name="ceo">Logan Appu</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Local</field>
+		<field name="airport">TBU</field>
+		<field name="narrative">Royal Tongan Airlines was the national airline of Tonga until liquidation in 2004. It was a government agency and operated interisland services and international routes.</field>
+		<field name="id">171</field>
+	</row>
+	<row>
+		<field name="name">RyanAir</field>
+		<field name="iata">FR</field>
+		<field name="color">Sienna</field>
+		<field name="country">137</field>
+		<field name="ceo">Michael O'Leary</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Regional</field>
+		<field name="airport">STN</field>
+		<field name="narrative">Ryanair Ltd. is an Irish low-cost airline. Its headquarters is located on the grounds of Dublin Airport in Swords, County Dublin, Ireland, with its primary operational bases at Dublin Airport and London Stansted Airports.</field>
+		<field name="id">172</field>
+	</row>
+	<row>
+		<field name="name">SEAir</field>
+		<field name="iata">DG</field>
+		<field name="color">Blue</field>
+		<field name="country">131</field>
+		<field name="ceo">Iren Dornier</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">MNL</field>
+		<field name="narrative">South East Asian Airlines, more widely known as SEAir, is an airline based in Manila, Philippines. They operate the Airbus A319, A320 and the Dornier 328 to 13 destinations in the Philippines, Malaysia, Singapore, Thailand and Hong Kong.</field>
+		<field name="id">173</field>
+	</row>
+	<row>
+		<field name="name">Safi Airways</field>
+		<field name="iata">4Q</field>
+		<field name="color">Purple</field>
+		<field name="country">253</field>
+		<field name="ceo">Ghulam Hazrat Safi</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Local</field>
+		<field name="airport">KBL</field>
+		<field name="narrative">Safi Airways is an afghan airline which operates Airbus A320-212, Boeing 767-200ER and Boeing 757-200 aircraft</field>
+		<field name="id">174</field>
+	</row>
+	<row>
+		<field name="name">Saudi Arabian Airlin</field>
+		<field name="iata">SV</field>
+		<field name="color">Blue</field>
+		<field name="country">136</field>
+		<field name="ceo">Khalid Abdullah Almolhem</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global </field>
+		<field name="airport">DOH</field>
+		<field name="narrative"></field>
+		<field name="id">175</field>
+	</row>
+	<row>
+		<field name="name">Scandinavian Airline</field>
+		<field name="iata">SK</field>
+		<field name="color">Tan</field>
+		<field name="country">110</field>
+		<field name="ceo">Rickard Gustafson</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">CPH</field>
+		<field name="narrative">Scandinavian Airlines or SAS, previously Scandinavian Airlines System, is the flag carrier of Denmark, Norway and Sweden, and the largest airline in Scandinavia. Part of the SAS Group and headquartered at Stockholm Arlanda Airport (ARN) in Sigtuna, Sweden, the airline operates 182 aircraft to 90 des</field>
+		<field name="id">176</field>
+	</row>
+	<row>
+		<field name="name">Scoot</field>
+		<field name="iata">TZ</field>
+		<field name="color">Orange</field>
+		<field name="country">174</field>
+		<field name="ceo">Campbell Wilson</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">SIN</field>
+		<field name="narrative">Scoot is a fully-owned subsidiary of Singapore Airlines. It was established as a medium to long-haul low-cost carrier and operates 4 Boeing 777-200ER aircraft from Singapore Airlines. The airline has 20 Boeing 787-9 aircraft on order. These aircraft are utilized for service to 9 airports over 6 coun</field>
+		<field name="id">177</field>
+	</row>
+	<row>
+		<field name="name">Shenzhen Airlines</field>
+		<field name="iata">ZH</field>
+		<field name="color">rosybrown</field>
+		<field name="country">148</field>
+		<field name="ceo">Li Kun</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">SZX</field>
+		<field name="narrative"></field>
+		<field name="id">178</field>
+	</row>
+	<row>
+		<field name="name">Sichuan Airlines</field>
+		<field name="iata">3U</field>
+		<field name="color">aquamarine</field>
+		<field name="country">148</field>
+		<field name="ceo">Nan Xinguo</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">CTU</field>
+		<field name="narrative"></field>
+		<field name="id">179</field>
+	</row>
+	<row>
+		<field name="name">Silkair</field>
+		<field name="iata">MI</field>
+		<field name="color">MediumSeaG</field>
+		<field name="country">174</field>
+		<field name="ceo">Marvin Tan</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Regional</field>
+		<field name="airport">SIN</field>
+		<field name="narrative">Silkair is regional wing of Singapore Airlines, and serves markets which cannot support the fielding of a widebody from Singapore Airlines. They currently operate 6 Airbus A319's and 16 Airbus A320-200 aircraft, which are slated to be replaced by the Boeing 737-800 and 737 MAX 8 which have been orde</field>
+		<field name="id">180</field>
+	</row>
+	<row>
+		<field name="name">Singapore Airlines</field>
+		<field name="iata">SQ</field>
+		<field name="color">Indigo</field>
+		<field name="country">174</field>
+		<field name="ceo">Wu Junpeng</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">SIN</field>
+		<field name="narrative"></field>
+		<field name="id">181</field>
+	</row>
+	<row>
+		<field name="name">Sky Airline</field>
+		<field name="iata">H2</field>
+		<field name="color">Black</field>
+		<field name="country">160</field>
+		<field name="ceo">Jurgen Paulmann</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">SCL</field>
+		<field name="narrative"></field>
+		<field name="id">182</field>
+	</row>
+	<row>
+		<field name="name">SkyPasada</field>
+		<field name="iata">SP</field>
+		<field name="color">Red</field>
+		<field name="country">131</field>
+		<field name="ceo">Ramon Guico III</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">MNL</field>
+		<field name="narrative">SkyPasada is a relatively new airline in the Philippines which operates mostly missionary routes to isolated locals in the country. They operate the Let L-410 aircraft, of which they have 3. They serve 8 destinations, all in the Philippines. </field>
+		<field name="id">183</field>
+	</row>
+	<row>
+		<field name="name">SkyWest Airlines</field>
+		<field name="iata">OO</field>
+		<field name="color">DarkRed</field>
+		<field name="country">122</field>
+		<field name="ceo">Jerry Atkin</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Regional</field>
+		<field name="airport">SLC</field>
+		<field name="narrative">SkyWest Airlines is a North American airline owned by SkyWest, Inc. and headquartered in St. George, Utah, USA. Financially speaking, and according to the Airlines for America definitions, SkyWest Airlines is a North American major airline</field>
+		<field name="id">184</field>
+	</row>
+	<row>
+		<field name="name">Skymark Airlines</field>
+		<field name="iata">BC</field>
+		<field name="color">Black</field>
+		<field name="country">171</field>
+		<field name="ceo">Shinichi Nishikubo</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">NRT</field>
+		<field name="narrative"></field>
+		<field name="id">185</field>
+	</row>
+	<row>
+		<field name="name">SmartWings</field>
+		<field name="iata">QS</field>
+		<field name="color">Black</field>
+		<field name="country">166</field>
+		<field name="ceo">A. Xhelo</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">PRG</field>
+		<field name="narrative"></field>
+		<field name="id">186</field>
+	</row>
+	<row>
+		<field name="name">Sonderholm Airlines</field>
+		<field name="iata">SH</field>
+		<field name="color">Teal</field>
+		<field name="country">110</field>
+		<field name="ceo">Christian Sonderholm</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Regional</field>
+		<field name="airport">AAR</field>
+		<field name="narrative"></field>
+		<field name="id">187</field>
+	</row>
+	<row>
+		<field name="name">South African Airway</field>
+		<field name="iata">SA</field>
+		<field name="color">Darkblue</field>
+		<field name="country">158</field>
+		<field name="ceo">Nico Bezuindenhout </field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">JNB</field>
+		<field name="narrative">South African Airways (SAA) is the national flag carrier and largest airline of South Africa, with headquarters in Airways Park on the grounds of OR Tambo International Airport in Kempton Park, Ekurhuleni, Gauteng. The airline flies to 38 destinations worldwide from its hub at OR Tambo International</field>
+		<field name="id">188</field>
+	</row>
+	<row>
+		<field name="name">Southwest Airlines</field>
+		<field name="iata">WN</field>
+		<field name="color">SteelBlue</field>
+		<field name="country">122</field>
+		<field name="ceo">Gary Kelley</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Domestic</field>
+		<field name="airport">MDW</field>
+		<field name="narrative"></field>
+		<field name="id">189</field>
+	</row>
+	<row>
+		<field name="name">SpiceJet</field>
+		<field name="iata">SG</field>
+		<field name="color">Maroon</field>
+		<field name="country">152</field>
+		<field name="ceo">Neil Raymond Mills</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Regional</field>
+		<field name="airport">DEL</field>
+		<field name="narrative">Spicejet is a low cost carrier and third largest airline in India.</field>
+		<field name="id">190</field>
+	</row>
+	<row>
+		<field name="name">Spirit Airlines</field>
+		<field name="iata">NK</field>
+		<field name="color">Black</field>
+		<field name="country">122</field>
+		<field name="ceo">Ben Bal danza</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">DTW</field>
+		<field name="narrative"></field>
+		<field name="id">191</field>
+	</row>
+	<row>
+		<field name="name">Spirit of Manila</field>
+		<field name="iata">SM</field>
+		<field name="color">Blue</field>
+		<field name="country">131</field>
+		<field name="ceo">Basilio Reyes</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">MNL</field>
+		<field name="narrative">Spirit of Manila Airlines is a bit of a niche player in the Philippine Aviation Industry, offering services to 8 destinations. They operate the Boeing 737-300, McDonnell Douglas MD-83, and has second-hand Boeing 767-300 on order.  </field>
+		<field name="id">192</field>
+	</row>
+	<row>
+		<field name="name">Spring Airlines</field>
+		<field name="iata">9C</field>
+		<field name="color">Black</field>
+		<field name="country">148</field>
+		<field name="ceo">Wang Zhenghua</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">PVG</field>
+		<field name="narrative"></field>
+		<field name="id">193</field>
+	</row>
+	<row>
+		<field name="name">Star PerÃº</field>
+		<field name="iata">2I</field>
+		<field name="color">Black</field>
+		<field name="country">182</field>
+		<field name="ceo">Valentin Kasyanov</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">LIM</field>
+		<field name="narrative"></field>
+		<field name="id">194</field>
+	</row>
+	<row>
+		<field name="name">Sun Country Airlines</field>
+		<field name="iata">SY</field>
+		<field name="color">Black</field>
+		<field name="country">122</field>
+		<field name="ceo">Jim Olsen</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">MSP</field>
+		<field name="narrative"></field>
+		<field name="id">195</field>
+	</row>
+	<row>
+		<field name="name">Sunwing Airlines</field>
+		<field name="iata">WG</field>
+		<field name="color">Black</field>
+		<field name="country">113</field>
+		<field name="ceo">Stephen Hunter</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">YYZ</field>
+		<field name="narrative"></field>
+		<field name="id">196</field>
+	</row>
+	<row>
+		<field name="name">Swiss Air Lines</field>
+		<field name="iata">LX</field>
+		<field name="color">Red</field>
+		<field name="country">164</field>
+		<field name="ceo">Harry Hohmeister</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">ZRH</field>
+		<field name="narrative">Swiss International Air Lines AG is the flag carrier airline of Switzerland operating scheduled services in Europe and to North America, South America, Africa and Asia. Its main hub is Zurich Airport. The airline was formed after the 2002 bankruptcy of Swissair, Switzerland's former flag carrier.</field>
+		<field name="id">197</field>
+	</row>
+	<row>
+		<field name="name">TAAG Angola Airlines</field>
+		<field name="iata">DT</field>
+		<field name="color">Orange</field>
+		<field name="country">224</field>
+		<field name="ceo">Pimentel AraÃºjo</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Regional</field>
+		<field name="airport">LAD</field>
+		<field name="narrative">Based in Luanda, the airline operates domestic services within Angola, as well as medium-haul services in Africa and long-haul services to Brazil, Cuba, China and Portugal</field>
+		<field name="id">198</field>
+	</row>
+	<row>
+		<field name="name">TACA Airlines</field>
+		<field name="iata">TA</field>
+		<field name="color">White</field>
+		<field name="country">193</field>
+		<field name="ceo">Fabio Villegas</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Domestic</field>
+		<field name="airport">SAL</field>
+		<field name="narrative">TACA Airlines is the flag-carrier of El Salvador and trade name 'brand' comprising a group of five independently IATA-coded and -owned Central American airlines</field>
+		<field name="id">199</field>
+	</row>
+	<row>
+		<field name="name">TAM Airlines</field>
+		<field name="iata">JJ</field>
+		<field name="color">DarkGreen</field>
+		<field name="country">138</field>
+		<field name="ceo">Marco Bologna</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">GRU</field>
+		<field name="narrative">TAM Airlines is the Brazilian brand of LATAM Airlines Group. The merger of TAM with LAN Airlines was completed on June 22, 2012. The company is currently the largest Brazilian airline.</field>
+		<field name="id">200</field>
+	</row>
+	<row>
+		<field name="name">TAP Portugal</field>
+		<field name="iata">TP</field>
+		<field name="color">Chartreuse</field>
+		<field name="country">150</field>
+		<field name="ceo">Fernando Pinto</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">LIS</field>
+		<field name="narrative">AP Portugal, founded 1945 as Transportes AÃ©reos Portugueses, SGPS, S.A., commonly known as TAP, is the national airline of Portugal. TAP Portugal is 100% state owned and has its head office in Building 25 on the grounds of Portela Airport in Santa Maria dos Olivais, Lisbon,[2][3] and has been a mem</field>
+		<field name="id">201</field>
+	</row>
+	<row>
+		<field name="name">TUIfly</field>
+		<field name="iata">X3</field>
+		<field name="color">Black</field>
+		<field name="country">163</field>
+		<field name="ceo">Dr. Michael Frenzel</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">FRA</field>
+		<field name="narrative"></field>
+		<field name="id">202</field>
+	</row>
+	<row>
+		<field name="name">Thai Airways</field>
+		<field name="iata">TG</field>
+		<field name="color">DarkMagent</field>
+		<field name="country">175</field>
+		<field name="ceo">Ampon Kittiampon</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global </field>
+		<field name="airport">BKK</field>
+		<field name="narrative"></field>
+		<field name="id">203</field>
+	</row>
+	<row>
+		<field name="name">Tiara Air Aruba</field>
+		<field name="iata">3P</field>
+		<field name="color">DarkBlue</field>
+		<field name="country">244</field>
+		<field name="ceo">Alejandro Muyale</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Local</field>
+		<field name="airport">AUA</field>
+		<field name="narrative">The airline was founded by Alejandro Muyale, whose family owns and performs Ground Handling Services at the Queen Beatrix International Airport in Aruba for over 30 years under the name of General Air Services (GenAir).</field>
+		<field name="id">204</field>
+	</row>
+	<row>
+		<field name="name">Tiger Airways Austra</field>
+		<field name="iata">TT</field>
+		<field name="color">Black</field>
+		<field name="country">116</field>
+		<field name="ceo">Andrew David</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">MEL</field>
+		<field name="narrative"></field>
+		<field name="id">205</field>
+	</row>
+	<row>
+		<field name="name">Tiger Airways</field>
+		<field name="iata">TR</field>
+		<field name="color">Black</field>
+		<field name="country">174</field>
+		<field name="ceo">Koay Peng Yen</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">SIN</field>
+		<field name="narrative"></field>
+		<field name="id">206</field>
+	</row>
+	<row>
+		<field name="name">Trans World Airlines</field>
+		<field name="iata">TW</field>
+		<field name="color">Red</field>
+		<field name="country">122</field>
+		<field name="ceo">Howard Hughes</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">JFK</field>
+		<field name="narrative">Trans World Airlines (TWA) was an American airline from 1925 until bought out by and merged with American Airlines in 2001. TWA was a major domestic airline in the United States and the main U.S.-based competitor of Pan American World Airways (Pan Am) on intercontinental routes from 1946 until dereg</field>
+		<field name="id">207</field>
+	</row>
+	<row>
+		<field name="name">TransGlobal Airlines</field>
+		<field name="iata">TGA</field>
+		<field name="color">LightBlue</field>
+		<field name="country">122</field>
+		<field name="ceo">Vernon Bricknell</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">JFK</field>
+		<field name="narrative"></field>
+		<field name="id">208</field>
+	</row>
+	<row>
+		<field name="name">Transaero Airlines</field>
+		<field name="iata">UN</field>
+		<field name="color">Blue</field>
+		<field name="country">149</field>
+		<field name="ceo">Olga Pleshakova</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Regional</field>
+		<field name="airport">DME</field>
+		<field name="narrative">Transaero Airlines is a Russian airline that has been operating since 1990 out of Moscow's Domodedovo International Airport. It operates a a fleet of 94 Boeing aircraft to over 150 primarily Eurasian destinations.</field>
+		<field name="id">209</field>
+	</row>
+	<row>
+		<field name="name">Tunisair</field>
+		<field name="iata">TU</field>
+		<field name="color">Red</field>
+		<field name="country">144</field>
+		<field name="ceo">Mohamed Thamri</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Regional</field>
+		<field name="airport">TUN</field>
+		<field name="narrative">Tunisian Air Company , or Tunisair is the flag carrier airline of Tunisia. Formed in 1948, it operates scheduled international services to European, African and Middle Eastern destinations. Its main base is Tunis-Carthage International Airport. The airline's head office is in Tunis, near Tunis Airpo</field>
+		<field name="id">210</field>
+	</row>
+	<row>
+		<field name="name">Turkish Airlines</field>
+		<field name="iata">TK</field>
+		<field name="color">PowderBlue</field>
+		<field name="country">161</field>
+		<field name="ceo">Temel Kotil</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">IST</field>
+		<field name="narrative">Turkish Airlines is the national flag carrier airline of Turkey, headquartered at the Turkish Airlines General Management Building on the grounds of Atatrk Airport in Istanbul. It operates scheduled services to 163 international and 41 domestic cities (38 domestic airports), serving a total of 204 a</field>
+		<field name="id">211</field>
+	</row>
+	<row>
+		<field name="name">US Airways</field>
+		<field name="iata">US</field>
+		<field name="color">Azure</field>
+		<field name="country">122</field>
+		<field name="ceo">Doug Parker</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">CLT</field>
+		<field name="narrative"></field>
+		<field name="id">212</field>
+	</row>
+	<row>
+		<field name="name">Ukraine Internationa</field>
+		<field name="iata">PT</field>
+		<field name="color">Yellow</field>
+		<field name="country">134</field>
+		<field name="ceo">Yuri Miroshnikov</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Regional</field>
+		<field name="airport">KBP</field>
+		<field name="narrative">Ukraine International Airlines is one of the flag carriers of Ukraine.  It operates scheduled domestic and international passenger and cargo services to cities in Europe. </field>
+		<field name="id">213</field>
+	</row>
+	<row>
+		<field name="name">United Airlines</field>
+		<field name="iata">UA</field>
+		<field name="color">DarkBlue</field>
+		<field name="country">122</field>
+		<field name="ceo">Jeffrey Smisek</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">ORD</field>
+		<field name="narrative">United Airlines is a major U.S. airline headquartered in Chicago, Illinois. It is the world's largest airline by number of destinations and scheduled passenger-kilometer flown</field>
+		<field name="id">214</field>
+	</row>
+	<row>
+		<field name="name">Varig</field>
+		<field name="iata">RG</field>
+		<field name="color">Yellow</field>
+		<field name="country">138</field>
+		<field name="ceo">Otto Ernst Meyer</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Global</field>
+		<field name="airport">GIG</field>
+		<field name="narrative">VARIG (acronym for ViaÃ§Ã£o AÃ©rea RIo-Grandense) was the first airline founded in Brazil, in 1927. From 1965 until 1990 it was Brazil's leading and almost only international airline.</field>
+		<field name="id">215</field>
+	</row>
+	<row>
+		<field name="name">VietJet Air</field>
+		<field name="iata">VJ</field>
+		<field name="color">Black</field>
+		<field name="country">170</field>
+		<field name="ceo">Ibrahim Dogan</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">SGN</field>
+		<field name="narrative"></field>
+		<field name="id">216</field>
+	</row>
+	<row>
+		<field name="name">Vietnam Airlines</field>
+		<field name="iata">VN</field>
+		<field name="color">Aqua</field>
+		<field name="country">1007</field>
+		<field name="ceo">Pham Viet Thanh</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">HAN</field>
+		<field name="narrative"></field>
+		<field name="id">217</field>
+	</row>
+	<row>
+		<field name="name">Virgin America</field>
+		<field name="iata">VX</field>
+		<field name="color">Red</field>
+		<field name="country">122</field>
+		<field name="ceo">C. David Cush</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Domestic</field>
+		<field name="airport">SFO</field>
+		<field name="narrative"></field>
+		<field name="id">218</field>
+	</row>
+	<row>
+		<field name="name">Virgin Atlantic</field>
+		<field name="iata">VS</field>
+		<field name="color">Red</field>
+		<field name="country">130</field>
+		<field name="ceo">Stephen Murphy</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">LHR</field>
+		<field name="narrative"></field>
+		<field name="id">219</field>
+	</row>
+	<row>
+		<field name="name">Virgin Australia</field>
+		<field name="iata">VA</field>
+		<field name="color">Red</field>
+		<field name="country">116</field>
+		<field name="ceo">John Borghetti</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">BNE</field>
+		<field name="narrative"></field>
+		<field name="id">220</field>
+	</row>
+	<row>
+		<field name="name">VivaColombia</field>
+		<field name="iata">5Z</field>
+		<field name="color">Black</field>
+		<field name="country">183</field>
+		<field name="ceo">Juan Emilio Posada</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">MDE</field>
+		<field name="narrative"></field>
+		<field name="id">221</field>
+	</row>
+	<row>
+		<field name="name">Vivaaerobus.com</field>
+		<field name="iata">VB</field>
+		<field name="color">Black</field>
+		<field name="country">157</field>
+		<field name="ceo">Juan Carlos Zuazua</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">MEX</field>
+		<field name="narrative"></field>
+		<field name="id">222</field>
+	</row>
+	<row>
+		<field name="name">Volaris</field>
+		<field name="iata">Y4</field>
+		<field name="color">Black</field>
+		<field name="country">157</field>
+		<field name="ceo">Enrique Beltranena</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">MEX</field>
+		<field name="narrative"></field>
+		<field name="id">223</field>
+	</row>
+	<row>
+		<field name="name">Volotea</field>
+		<field name="iata">V7</field>
+		<field name="color">Black</field>
+		<field name="country">123</field>
+		<field name="ceo">Lazaro Ros</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">VCE</field>
+		<field name="narrative"></field>
+		<field name="id">224</field>
+	</row>
+	<row>
+		<field name="name">Vueling Airlines</field>
+		<field name="iata">VY</field>
+		<field name="color">Tan</field>
+		<field name="country">123</field>
+		<field name="ceo">Alex Cruz</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Regional</field>
+		<field name="airport">BCN</field>
+		<field name="narrative">Vueling Airlines, S.A. is a low cost airline based in Spain. The airline's head office is located near its main hub at Barcelonaâ€“El Prat Airport in El Prat de Llobregat, Barcelona. Its name comes from the Spanish word Vuelo, which means flight. There are eleven additional bases at A CoruÃ±a, Amste</field>
+		<field name="id">225</field>
+	</row>
+	<row>
+		<field name="name">WOW air</field>
+		<field name="iata">X9</field>
+		<field name="color">Purple</field>
+		<field name="country">121</field>
+		<field name="ceo">SkÃºli Mogensen</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">KEF</field>
+		<field name="narrative"></field>
+		<field name="id">226</field>
+	</row>
+	<row>
+		<field name="name">WestJet</field>
+		<field name="iata">WS</field>
+		<field name="color">Black</field>
+		<field name="country">113</field>
+		<field name="ceo">Gregg Saretsky</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">YYC</field>
+		<field name="narrative"></field>
+		<field name="id">227</field>
+	</row>
+	<row>
+		<field name="name">West African Airline</field>
+		<field name="iata">WZ</field>
+		<field name="color">Red</field>
+		<field name="country">187</field>
+		<field name="ceo">Marlena Mendes</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Local</field>
+		<field name="airport">COO</field>
+		<field name="narrative"></field>
+		<field name="id">228</field>
+	</row>
+	<row>
+		<field name="name">Western Airlines</field>
+		<field name="iata">WA</field>
+		<field name="color">DarkRed</field>
+		<field name="country">122</field>
+		<field name="ceo">Harris Hanshue</field>
+		<field name="mentality">Moderate</field>
+		<field name="market">Regional</field>
+		<field name="airport">LAX</field>
+		<field name="narrative">Western Airlines was a large airline based in California, with operations throughout the western United States and western Canada, as well as into Mexico. Western Airlines used a fleet of mainly Boeing airliners</field>
+		<field name="id">229</field>
+	</row>
+	<row>
+		<field name="name">Windward Islands Air</field>
+		<field name="iata">WM</field>
+		<field name="color">Yellow</field>
+		<field name="country">109</field>
+		<field name="ceo">Georges E. Greaux</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Local </field>
+		<field name="airport">SXM</field>
+		<field name="narrative">Windward Islands Airways is a government-owned airline based in the Netherlands Antilles. Founded in 1961 by Georges Greaux, It has a fleet of four aircraft serving ten destinations, all within the Leeward Islands group of the Lesser Antilles in the North East Caribbean</field>
+		<field name="id">230</field>
+	</row>
+	<row>
+		<field name="name">Wizz Air</field>
+		<field name="iata">V6</field>
+		<field name="color">Blue</field>
+		<field name="country">159</field>
+		<field name="ceo">JÃ³zsef VÃ¡radi</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Regional</field>
+		<field name="airport">BUD</field>
+		<field name="narrative">Wizz Air Hungary Airlines Ltd. is a Hungarian low-cost airline with its head office on the property of Budapest Liszt Ferenc International Airport in Budapest. The airline typically uses secondary airports serving many cities across Europe. It has the largest aircraft fleet of all the Hungarian airl</field>
+		<field name="id">231</field>
+	</row>
+	<row>
+		<field name="name">Yeti Airlines</field>
+		<field name="iata">YT</field>
+		<field name="color">Green</field>
+		<field name="country">251</field>
+		<field name="ceo">Lhakpa Sonam Sherpa</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Domestic</field>
+		<field name="airport">KTM</field>
+		<field name="narrative"></field>
+		<field name="id">232</field>
+	</row>
+	<row>
+		<field name="name">Zest Airways</field>
+		<field name="iata">Z2</field>
+		<field name="color">MediumSeaG</field>
+		<field name="country">131</field>
+		<field name="ceo">Alfredo Yao</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">MNL</field>
+		<field name="narrative">Zest Airways started life as Asian Spirit, the first airline in the Philippines to be run as a cooperative. Operating out of Manila, Zest has 18 aircraft, namely the Airbus A319, A320 and the Xian MA60. They also have 31 aircraft on order. They currently serve 19 destinations in the Philippines, Tai</field>
+		<field name="id">233</field>
+	</row>
+	<row>
+		<field name="name">flydubai</field>
+		<field name="iata">FZ</field>
+		<field name="color">Black</field>
+		<field name="country">156</field>
+		<field name="ceo">Kenneth Gile</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">DXB</field>
+		<field name="narrative"></field>
+		<field name="id">234</field>
+	</row>
+	<row>
+		<field name="name">jetBlue</field>
+		<field name="iata">B6</field>
+		<field name="color">Blue</field>
+		<field name="country">122</field>
+		<field name="ceo">David Barger</field>
+		<field name="mentality">Aggressive</field>
+		<field name="market">Global</field>
+		<field name="airport">JFK</field>
+		<field name="narrative">jetBlue is an American Low-Cost Airline founded by David Neeleman and is headquartered in Long Island, New York. Operating a fleet of 126 Airbus A320-200 and 53 Embraer E190 aircraft, jetBlue serves 75 destinations in 12 countries.</field>
+		<field name="id">235</field>
+	</row>
+	<row>
+		<field name="name">kulula.com</field>
+		<field name="iata">MN</field>
+		<field name="color">Black</field>
+		<field name="country">158</field>
+		<field name="ceo">Gidon Novick</field>
+		<field name="mentality">Safe</field>
+		<field name="market">Global</field>
+		<field name="airport">JNB</field>
+		<field name="narrative"></field>
+		<field name="id">236</field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>

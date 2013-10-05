@@ -1,0 +1,35 @@
+General notes -:-
+    contact mike@theairlineproject.com with any questions
+    this file is viewed best with the PlainTasks plugin for Sublime Text
+    if you're using something else, feel free. just mark an "X" after the todo item if you complete
+
+    possibly looking for some web software to better handle tracking of todos
+
+
+TheAirlineProject-Web:
+
+Graphic Design:
+  ☐ Logo 
+  ☐ Banner
+  ☐ Buttons
+
+Web Design:
+ ☐ Page Templates @html
+ ☐ Panel Templates @html
+ ☐ Widget Templates @html
+
+Programming:
+
+  Front End:
+   ☐ Research and decide on frameworks - jQuery, Angular, etc @js
+   ☐ Helper functions for UI @js
+
+
+  Back End:
+   ☐ Class for user session @php
+   ☐ Database architecture for user session @mysql
+   ☐ Main game classes @php
+   ☐ Main web API classes and functions @php @mysql
+
+
+

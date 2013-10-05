@@ -15,6 +15,10 @@ This is still VERY early in development - it will be a couple months before anyt
 
 Mailing list, TODOS, and roadmap coming soon!
 
+Looking for a project management web app of some sort possibly.
+
+TODO list: docs/tap-web.TODO
+
 Current dir structure:
 
 pages/ - contains PHP helper pages for things like database imports and general use stuff that isn't part of the game (but could be)

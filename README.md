@@ -64,6 +64,16 @@ You *shouldn't* have to move around the xml stuffs, although you may wish to cop
 
 cp -R xml ../httpdocs
 
+####Dev Flow####
+For now, everything will be done on the master branch.
 
+As time and complexity goes on, the following branches will be created methinks:
+* Master
+* Server    --^
+* Dev	    --^
+* Feature --^
+* Bug(x)  --^
 
+Where master=production, server=shell scrips and database stuffs, dev=the working development branch, feature=new features in development(not ready for mainstream testing), bug=hot fixes and patches.
 
+If you want to chip in here and there, but don't want be involved in the day to day stuffs, fork & pull. We'll add you to the credits and try our best to integrate it as long as there aren't any major conflicts.

@@ -34,25 +34,25 @@ If you want to work specifically on front- or back-end stuffs, the following com
 * Knowledge of PHP/MySQL and JavaScript (Back-End)
 * Knowledge of associated frameworks (jQuery, Angular, CakePHP, etc)
 
-You can reach us by email - mike@theairlineproject.com - and - christian@theairlineproject.com
-Skype: mike - md87415
-Facebook: http://facebook.com/TheAirline
-Twitter: http://twitter.com/pjank42 (The Airline Project) and http://twitter.com/\_mikedugan (Mike)
-irc.freenode: #TheAirlineProject
+You can reach us by email - mike@theairlineproject.com - and - christian@theairlineproject.com<br />
+Skype: mike - md87415<br />
+Facebook: http://facebook.com/TheAirline<br />
+Twitter: http://twitter.com/pjank42 (The Airline Project) and http://twitter.com/_mikedugan (Mike)<br />
+irc.freenode: #TheAirlineProject<br />
 
 ####Running the Stuffs####
 
-git clone https://github.com/TheAirlineProject/TheAirlineProject_Web.git
+git clone https://github.com/TheAirlineProject/TheAirlineProject_Web.git<br />
 cd TheAirlineProject_Web/pages
 
-mysql -u username -p 
-CREATE DATABASE tap;
+mysql -u username -p <br />
+CREATE DATABASE tap;<br />
 exit;
 
 mysql -p -u username tap < tap-data.sql
 
-grep -rl "root" ./ | xargs sed -i 's/root/yourDBUser/g'
-grep -rl "asdf" ./ | xargs sed -i 's/asdf/yourDBPass/g'
+grep -rl "root" ./ | xargs sed -i 's/root/yourDBUser/g'<br />
+grep -rl "asdf" ./ | xargs sed -i 's/asdf/yourDBPass/g'<br />
 
 You *shouldn't* have to move around the xml stuffs, although you may wish to copy it to httpdocs methinks
 

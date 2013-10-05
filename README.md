@@ -19,7 +19,7 @@ Looking for a project management web app of some sort possibly.
 
 TODO list: docs/tap-web.TODO
 
-Current dir structure:
+####Current dir structure:####
 
 pages/ - contains PHP helper pages for things like database imports and general use stuff that isn't part of the game (but could be)
 
@@ -37,6 +37,8 @@ If you want to work specifically on front- or back-end stuffs, the following com
 * Knowledge of HTML/CSS, and basic graphic design (Front-End)
 * Knowledge of PHP/MySQL and JavaScript (Back-End)
 * Knowledge of associated frameworks (jQuery, Angular, CakePHP, etc)
+
+If you want to help though, there is plenty of stuffs to do. Just drop us a line (or ping or whatever) and we'll get you caught up on the current todos and how you can help!
 
 You can reach us by email - mike@theairlineproject.com - and - christian@theairlineproject.com<br />
 Skype: mike - md87415<br />

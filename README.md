@@ -68,11 +68,11 @@ cp -R xml ../httpdocs
 For now, everything will be done on the master branch.
 
 As time and complexity goes on, the following branches will be created methinks:
-* Master
-* Server    --^
-* Dev	    --^
-* Feature --^
-* Bug(x)  --^
+* master
+* server    -master-^
+* dev	   -master-^
+* feature -dev-^
+* bug(x)  -dev-^
 
 Where master=production, server=shell scrips and database stuffs, dev=the working development branch, feature=new features in development(not ready for mainstream testing), bug=hot fixes and patches.
 

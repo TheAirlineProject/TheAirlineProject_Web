@@ -1,0 +1,10 @@
+===============================
+
+
+classes/ - this should contain any JavaScript or PHP classes and their functions
+
+functions/ - this should include any static functions that don't require any instantiation
+
+templates/ - this should include HTML templates. No same-file JavaScript! use the functions or classes for that!
+
+

@@ -25,11 +25,15 @@ Programming:
    ☐ Helper functions for UI @js
 
 
-  Back End:
+  Back End & Server:
    ☐ Class for user session @php
    ☐ Database architecture for user session @mysql
    ☐ Main game classes @php
    ☐ Main web API classes and functions @php @mysql
+   ☐ Cron jobs to execute auto updates from the repository
 
 
-
+Frameworks/Engines:
+ ☐ Smarty (PHP templating) -> all of the HTML templates can be handled this way
+ ☐ jQuery + UI (UI/UX)
+ ☐ Angular.js (might be better for UX dynamics)

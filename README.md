@@ -19,6 +19,11 @@ Looking for a project management web app of some sort possibly.
 
 TODO list: docs/tap-web.TODO
 
+Down the road...
+Various dev discussions have led us to looking at a combined web-linux development of the game. Development in Python would allow for an easier migration between web and nix desktop (and vice-versa).
+
+More to come on this
+
 ####Current dir structure:####
 
 pages/ - contains PHP helper pages for things like database imports and general use stuff that isn't part of the game (but could be)
